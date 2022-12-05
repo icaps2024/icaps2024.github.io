@@ -1,0 +1,77 @@
+---
+title: paper-56
+layout: page
+---
+<head>
+<style>
+div1 {
+  background-color: lightgrey;
+  width: 30px;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 1px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}.button2 {
+  background-color: white;
+  color: black; 
+  border: 2px solid red;
+}
+.button2:hover {
+  background-color: red;
+  color: white;
+}
+</style>
+</head>
+<div class='container'>
+  <div class='row'>
+      <div class='3u 12u(mobile)'>
+      <section>
+       <button class='button button2' onclick=" window.open('https://ojs.aaai.org/index.php/ICAPS/article/view/19846/19605','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> PDF</button>
+<br><br><h3 class='top'>Talk Sessions: </h3>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#26a','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 23, Session 26a</button>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#30b','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 24, Session 30b</button>
+<br><br><h3 class='top'>Poster Sessions: </h3>
+<button class='button button2' onclick=" window.open('http://icaps22.icaps-conference.org/posters/ICAPS 2022 - POSTER - TP56 - Reinforcement Learning for Classical Planning Viewing Heuristics as Dense Reward Generators.pdf','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> Poster</button><br><br>
+<div1> June 23, Booth 8</div1> <br><br>
+<div1> June 24, Booth 7</div1> <br><br>
+</section>
+ </div>
+<div class='9u 12u(mobile)'>
+    <section>
+      <header>
+        <h1 class='top'>Reinforcement Learning for Classical Planning: Viewing Heuristics as Dense Reward Generators</h1>
+        <h3>Clement Gehring, Masataro Asai, Rohan Chitnis, Tom Silver, Leslie Kaelbling, Shirin Sohrabi and Michael Katz</h3>
+      </header>
+<b>Abstract:</b> Recent advances in reinforcement learning (RL) have led to a growing interest in applying RL to classical planning domains or applying classical planning methods to some complex RL domains. However, the long-horizon goal-based problems found in classical planning lead to sparse rewards for RL, making direct application inefficient. In this paper, we propose to leverage domain-independent heuristic functions commonly used in the classical planning literature to improve the sample efficiency of RL. These classical heuristics act as dense reward generators to alleviate the sparse-rewards issue and enable our RL agent to learn domain-specific value functions as residuals on these heuristics, making learning easier. Correct application of this technique requires consolidating the discounted metric used in RL and the non-discounted metric used in heuristics. We implement the value functions using Neural Logic Machines, a neural network architecture designed for grounded first-order logic inputs. We demonstrate on several classical planning domains that using classical heuristics for RL allows for good sample efficiency compared to sparse-reward RL. We further show that our learned value functions generalize to novel problem instances in the same domain. The source code and the appendix are available at github.com/ibm/pddlrl and arxiv.org/abs/2109.14830.<br><br>
+<div id='presentation-embed-38982887'></div>
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<script>
+embed = new SlidesLiveEmbed('presentation-embed-38982887', { 
+ presentationId: '38982887',
+ autoPlay: false,
+ verticalEnabled: true, 
+   });
+</script>
+<h4><p style='color:red'><sup>*</sup>This password protected talk video will only be available after it was presented at the conference.</p></h4></section>
+  </div>
+  </div>
+</div>

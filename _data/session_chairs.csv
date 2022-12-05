@@ -1,0 +1,63 @@
+Sessions,Chairs
+"Session 1a: Planning Representation and Scheduling (Tuesday 21, 9:00 UTC)",Neil Yorke-Smith
+"Session 1b: Verification (Tuesday 21, 9:00 UTC)",Erez Karpas
+"Session 2a: Reinforcement Learning (Tuesday 21, 10:00 UTC)",Vaneet Aggarwal
+"Session 2b: Heuristics in Classical Planning (Tuesday 21, 10:00 UTC)",Jörg Hoffmann
+"Session 3a: Model-Based Reasoning in Classical Planning (Tuesday 21, 13:00 UTC)",Michael Katz
+"Session 3b: Learning in Scheduling Applications (Tuesday 21, 13:00 UTC)",Nysret Musliu
+"Session 4a: Search (Tuesday 21, 14:00 UTC)",Michael Katz
+"Session 4b: Optimal Planning (Tuesday 21, 14:00 UTC)",Jörg Hoffmann
+"Session 5a: Problem Reformulation (Tuesday 21, 16:00 UTC)",Sunandita Patra
+"Session 5b: Heuristics and Heuristic Search (Tuesday 21, 16:00 UTC)",Jendrik Seipp
+"Session 6a: Multi-Agent Path Finding (Tuesday 21, 17:00 UTC)",Hang Ma
+"Session 6b: Deep Learning (Tuesday 21, 17:00 UTC)",Scott Sanner
+"Session 7a: Probabilistic Planning (Tuesday 21, 20:00 UTC)",Sandhya Saisubramanian
+"Session 7b: Multi-Agent Planning and Scheduling (Tuesday 21, 20:00 UTC)",Stephen Smith
+"Session 8a: Hierarchical Task Networks (Tuesday 21, 22:00 UTC)",Shirin Sohrabi
+"Session 8b: Rewards in Reinforcement Learning (Tuesday 21, 22:00 UTC)",Alberto Camacho
+"Session 9a: Search (Wednesday 22, 7:00 UTC)",Alexander Shleyfman
+"Session 9b: Multi-Agent Planning (Wednesday 22, 7:00 UTC)",Antonin Komenda
+"Session 10a: Goal and Plan Recognition (Wednesday 22, 9:00 UTC)",Sarah Keren
+"Session 10b: Scheduling Applications (Wednesday 22, 9:00 UTC)",Hoong Chuin Lau
+"Session 11a: Heuristics in Classical and Multi-Objective Planning (Wednesday 22, 10:00 UTC)",Florian Pommerening
+"Session 11b: Applications (Wednesday 22, 10:00 UTC)",Charles Gretton
+"Session 12a: Numeric Planning (Wednesday 22, 13:00 UTC)",Patrik Haslum
+"Session 12b: Deep Learning (Wednesday 22, 13:00 UTC)",Malte Helmert
+"Session 13a: Epistemic Planning (Wednesday 22, 14:00 UTC)",Andrea Orlandini
+"Session 13b: Heuristics in Classical Planning (Wednesday 22, 14:00 UTC)",Alvaro Torralba
+"Session 14a: Search (Wednesday 22, 17:00 UTC)",Oren Salzman
+"Session 14b: Verification (Wednesday 22, 17:00 UTC)",Andrea Micheli
+"Session 15a: Planning Decompositions and Learning (Wednesday 22, 20:00 UTC)",Scott Sanner
+"Session 15b: Explainable Planning and Scheduling (Wednesday 22, 20:00 UTC)",Matthew Gombolay
+"Session 16a: Multi-Agent Planning (Wednesday 22, 22:00 UTC)",Jiaoyang Li
+"Session 16b: Reinforcement Learning (Wednesday 22, 22:00 UTC)",Anders Jonsson
+"Session 17a: Applications (Wednesday 22, 23:00 UTC)",William Yeoh
+"Session 17b: Path and Motion Planning (Wednesday 22, 23:00 UTC)",Sven Koenig
+"Session 18a: Classical Planning (Thursday 23, 7:00 UTC)",Roni Stern
+"Session 18b: Robotics (Thursday 23, 7:00 UTC)",Oren Salzman
+"Session 19a: Expressivity and Complexity (Thursday 23, 9:00 UTC)",Erez Karpas
+"Session 19b: Path Finding (Thursday 23, 9:00 UTC)",Roni Stern
+"Session 20a: Explainable Planning and Scheduling (Thursday 23, 10:00 UTC)",Christina Burt
+"Session 20b: Heuristics and Heuristic Search (Thursday 23, 10:00 UTC)",Malte Helmert
+"Session 21a: Applications (Thursday 23, 14:00 UTC)",Christophe Guettier
+"Session 21b: Temporal Planning and Reinforcement Learning (Thursday 23, 14:00 UTC)",Pradeep Varakantham
+"Session 22a: Reinforcement Learning (Thursday 23, 16:00 UTC)",Ronen Brafman
+"Session 22b: Robotics (Thursday 23, 16:00 UTC)",Andrea Orlandini
+"Session 23a: Abstraction Heuristics (Thursday 23, 17:00 UTC)",Silvan Sievers
+"Session 23b: Reinforcement Learning (Thursday 23, 17:00 UTC)",Hector Geffner
+"Session 24a: Reinforcement Learning in Robotics (Thursday 23, 20:00 UTC)",Matthew Gombolay
+"Session 24b: User Interactions and Top-Quality Planning (Thursday 23, 20:00 UTC)",Sarath Sreedharan
+"Session 25a: Heuristic Search (Thursday 23, 22:00 UTC)",Alexander Shleyfman
+"Session 25b: Epistemic Planning (Thursday 23, 22:00 UTC)",Patrik Haslum
+"Session 26a: Heuristics (Thursday 23, 23:00 UTC)",Masataro Asai
+"Session 26b: Scheduling (Thursday 23, 23:00 UTC)",Neil Yorke-Smith
+"Session 27a: Reformulation (Friday 24, 9:00 UTC)",Lukas Chrpa
+"Session 27b: Probabilistic Planning (Friday 24, 9:00 UTC)",Felipe Trevizan
+"Session 28a: Model-Based Reasoning in Classical Planning (Friday 24, 10:00 UTC)",Enrico Scala
+"Session 28b: Temporal Planning (Friday 24, 10:00 UTC)",Ivan Serina
+"Session 29a: Multi-Agent and Tree Search (Friday 24, 13:00 UTC)",Maxim Likhachev
+"Session 29b: Motion Planning and Deep RL (Friday 24, 13:00 UTC)",Martim Brandao
+"Session 30a: Scheduling (Friday 24, 16:00 UTC)",Andrea Micheli
+"Session 30b: Heuristics in Classical Planning (Friday 24, 16:00 UTC)",Masataro Asai
+"Session 31a: User Interfaces in Explainable Planning (Friday 24, 17:00 UTC)",Christabel Wayllace
+"Session 31b: Scheduling (Friday 24, 17:00 UTC)",Christophe Guettier

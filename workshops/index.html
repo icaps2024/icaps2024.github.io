@@ -1,0 +1,139 @@
+---
+title: ICAPS 2022 Workshops
+layout: page
+---
+<div class="container">
+  <div class="row">
+    <div class="3u 12u(mobile) important(mobile)">
+      <section>
+        <header>
+          <h3 class="top">Workshops</h3>
+        </header>
+        <ul class="link-list">
+        {% for workshop in site.data.workshops %}
+          <li>
+          {% if workshop.url %}
+            <a href="{{ workshop.url }}">{{ workshop.nick }}</a>
+          {% elsif workshop.ready %}
+            <a href="{{ workshop.nick }}">{{ workshop.nick }}</a>
+          {% else %}
+            {{ workshop.nick }}
+          {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </section>
+      <!--section>
+        <header>
+          <h3 class="top">Suggested Dates </h3>
+        </header>
+        <ul class="check-list">
+          <li><strong>Early March, 2017</strong> - Submissions Due</li>
+          <li><strong>Early April, 2017</strong> - Notification</li>
+          <li><strong>June 19-20, 2017</strong> - Workshops</li>
+        </ul>
+      </section-->
+    </div>
+  <div class="9u 12u(mobile)">
+    <section>
+      <header>
+        <h1 class="top">Workshop Program</h1>
+      </header>
+      <p>The workshops are intended to provide a forum to discuss research advances on a selected topic in an informal setting and to promote dissemination and collaboration on new Planning and Scheduling challenges. Specific details for the individual workshops will be provided in the near future.</p>
+
+      <h3>Workshop and Tutorial Schedule</h3>
+
+      <div id="day-nav">
+        <ul>
+          <li class="day-link" id="day-all"><a href="#"onclick="return false;">All Days</a></li>
+          <li class="day-link" id="day-13"><a href="#" onclick="return false;">June 13th</a></li>
+          <li class="day-link" id="day-14"><a href="#" onclick="return false;">June 14th</a></li>
+          <li class="day-link" id="day-15"><a href="#" onclick="return false;">June 15th</a></li>
+          <li class="day-link" id="day-16"><a href="#" onclick="return false;">June 16th</a></li>
+          <li class="day-link" id="day-17"><a href="#" onclick="return false;">June 17th</a></li>
+        </ul>
+      </div>
+
+      <a href="/images/schedule/full.png"><img class="day-img" id="day-all-img" src="/images/schedule/full.png"></a>
+      <img class="day-img" id="day-13-img" src="/images/schedule/13.png">
+      <img class="day-img" id="day-14-img" src="/images/schedule/14.png">
+      <img class="day-img" id="day-15-img" src="/images/schedule/15.png">
+      <img class="day-img" id="day-16-img" src="/images/schedule/16.png">
+      <img class="day-img" id="day-17-img" src="/images/schedule/17.png">
+
+
+      <h3>Accepted Workshops</h3>
+      <ul class="link-list">
+      {% for workshop in site.data.workshops %}
+        <li>
+        {% if workshop.url %}
+          <a href="{{ workshop.url }}">{{ workshop.nick }}</a>:
+        {% elsif workshop.ready %}
+          <a href="{{ workshop.nick }}">{{ workshop.nick }}</a>:
+        {% else %}
+          {{ workshop.nick }}:
+        {% endif %}
+          {{ workshop.name }} <br/>
+          <em>{{ workshop.team }}</em>
+        {% if workshop.contact %}
+          <br/> Contact: <a href="mailto:{{ workshop.contact }}"/>{{ workshop.contact }}</a>
+        {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    </section>
+  </div>
+</div>
+
+<script>
+  $( document ).ready(function() {
+    console.log( "ready!" );
+    $('.day-img').hide();
+    $('#day-all-img').show();
+    $('#day-all a').css('background-color', '#ddd');
+    $('.day-link').click(function() {
+      $('.day-img').hide();
+      $('#' + $(this).attr('id') + '-img').show();
+      $('.day-link a').css('background-color', '#fff');
+      $('#' + $(this).attr('id') + ' a').css('background-color', '#ddd');
+    });
+  });
+</script>
+
+<style>
+  /* Make day-nav a horizontal navbar */
+  #day-nav {
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+  }
+  #day-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  #day-nav li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+  }
+  #day-nav li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    background-color: white;
+  }
+  #day-nav li a:hover {
+    background-color: #ddd;
+  }
+  #day-nav li.day-link {
+    background-color: #ddd;
+  }
+  #day-nav li.day-link a {
+    color: #000;
+  }
+
+</style>

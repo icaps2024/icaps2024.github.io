@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<!--
+    Built using Halcyonic by HTML5 UP
+    html5up.net | @n33co
+    Customized for ICAPS
+  -->
+<html>
+  <head>
+    <title>ICAPS Tutorial: Efficient Neural-Symbolic Reasoning Via Reinforcement Learning</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="/assets/js/parallax.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    
+
+  </head>
+
+  <body>
+    <div id="page-wrapper">
+      <div id="header-wrapper">
+	<header id="header" class="container">
+	<div class="row">
+		<div class="3u 12u(mobile)">
+			<a href="/" id="logo"><img src="/images/icapslogo.png" alt="ICAPS 2022 - Singapore" id="icaps-logo" /></a>
+		</div>
+		<div class="9u 12u(mobile)">
+			<nav id="nav">
+				<ul>
+					<li><a href="/">Home</a></li>
+
+					<li><a href="/cfp">Calls</a>
+						<ul>
+							<li><a class="sub-menu-" href="/discussion-call">Call for Discussion Topics</a></li>
+							<li><a class="sub-menu-" href="/journal-cfp">Journal</a></li>
+							<li><a class="sub-menu-" href="/demo-cfp">Call for Demos</a></li>
+							<li><a class="sub-menu-" href="/sponsor-cfp">Call for Sponsorship</a></li>
+
+							<li><a class="sub-menu-" href="/cfp">Main Track</a></li>
+							<li><a class="sub-menu-" href="/tut-cfp">Call for Tutorials</a></li>
+							<li><a class="sub-menu-" href="/ws-cfp">Call for Workshops</a></li>
+							<li><a class="sub-menu-" href="/industry-and-applications-track">Industry and
+								Applications</a></li>
+							<li><a class="sub-menu-" href="/human-aware-planning-and-scheduling-track">Human-Aware
+								Planning and Scheduling</a></li>
+							<li><a class="sub-menu-" href="/learning-track">Planning and Learning</a></li>
+							<li><a class="sub-menu-" href="/dc-2022">Doctoral Consortium</a></li>
+
+						</ul>
+					</li>
+
+					<li><a href="">Program</a>
+						<ul>
+
+							<li><a class="sub-menu-" href="/invited-talks">Invited Talks</a></li>
+							<li><a class="sub-menu-" href="/schedule">Schedule</a></li>
+							<li><a class="sub-menu-" href="/papers">Papers</a></li>
+							<li><a class="sub-menu-" href="/workshops">Workshops</a></li>
+							<li><a class="sub-menu-" href="/tutorials">Tutorials</a></li>
+							<li><a class="sub-menu-" href="/dc-2022">Doctoral Consortium</a></li>
+							<!-- <li><a class="sub-menu-" href="/tutorials">Tutorials</a></li> -->
+							<li><a class="sub-menu-" href="/awards">Awards</a></li>
+							<li><a class="sub-menu-" href="/panels">Panels</a></li>
+							<li><a class="sub-menu-" href="/demos/">Demos</a></li>
+							<li><a class="sub-menu-" href="/social-events">Social Events</a></li>
+						</ul>
+					</li -->
+
+					<!-- <li> <a href="/workshops/">Workshops</a>
+						<ul>
+							
+							
+							<li>
+								
+								<a class="sub-menu-" href="/workshops/HPlan/">HPlan</a>
+								
+							</li>
+							
+							
+							
+							<li>
+								
+								<a class="sub-menu-" href="/workshops/PRL/">PRL</a>
+								
+							</li>
+							
+							
+							
+							<li>
+								
+								<a class="sub-menu-" href="/workshops/RDDPS/">RDDPS</a>
+								
+							</li>
+							
+							
+							
+							<li>
+								
+								<a class="sub-menu-" href="/workshops/PlanRob/">PlanRob</a>
+								
+							</li>
+							
+							
+							
+							<li>
+								
+								<a class="sub-menu-" href="/workshops/XAIP/">XAIP</a>
+								
+							</li>
+							
+							
+							
+							<li>
+								
+								<a class="sub-menu-" href="/workshops/IntEx/">IntEx</a>
+								
+							</li>
+							
+							
+							
+							<li>
+								
+								<a class="sub-menu-" href="/workshops/FinPlan/">FinPlan</a>
+								
+							</li>
+							
+							
+							
+							<li>
+								
+								<a class="sub-menu-" href="/workshops/DAPSPAC/">DAPSPAC</a>
+								
+							</li>
+							
+							
+							
+							<li>
+								
+								<a class="sub-menu-" href="/workshops/HSDIP/">HSDIP</a>
+								
+							</li>
+							
+							
+							
+							<li>
+								
+								<a class="sub-menu-" href="/workshops/SPARK/">SPARK</a>
+								
+							</li>
+							
+							
+							
+							<li>
+								
+								<a class="sub-menu-" href="/workshops/KEPS/">KEPS</a>
+								
+							</li>
+							
+							
+						</ul>
+					</li> -->
+
+					<!--li><a href="/tutorials/">Tutorials</a>
+					</li-->
+
+					<li><a href="/registration">Registration</a></li>
+
+					<li><a href="">Committees</a>
+						<ul>
+							<li><a class="sub-menu-" href="/committee">Organizing Committee</a></li>
+							<li><a class="sub-menu-" href="/programcommittee">Program Committee</a></li>
+						</ul>
+					</li>
+
+					<li><a href="/general-instructions">Attending</a>
+						<ul>
+							<li><a class="sub-menu-" href="/general-instructions">General</a></li>
+							<li><a class="sub-menu-" href="/gather">Gather Town</a></li>
+							<li><a class="sub-menu-" href="/live-streams">Live Streams</a></li>
+							<li><a class="sub-menu-" href="/zoom-meetings">Zoom</a></li>
+						</ul>
+					</li>
+
+					<li><a href="/code-of-conduct">Code of Conduct</a></li>
+
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+
+      </div>
+
+      <div id="banner" data-type="background" data-speed="20">
+        <div class="container">
+          <div class="row">
+            <div class="4u 12u(mobile)">
+
+
+            </div>
+            <div class="8u 12u(mobile)">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="content-wrapper">
+        <div id="content">
+          <div class="container">
+  <div class="row">
+    <div class="3u 12u(mobile) important(mobile)">
+      <section>
+        <header>
+          <h3 class="top">Date </h3>
+        </header>
+        <ul class="check-list">
+          <li><strong>June 17</strong></li>
+        </ul>
+      </section>
+      
+
+<section>
+  <header>
+    <h3>Tutorials</h3>
+  </header>
+  <ul class="check-list">
+    
+    <li><a href="/tutorials/tut1">Hands on Introduction to CALDERA, a Red-Blue Cyber Operations Automation Platform</a></li>
+    
+    <li><a href="/tutorials/tut2">Planning & Scheduling and Quantum Computing: what can they do for each other?</a></li>
+    
+    <li><a href="/tutorials/tut3">(<span style="color:red">cancelled</span>) Efficient Neural-Symbolic Reasoning Via Reinforcement Learning</a></li>
+    
+    <li><a href="/tutorials/tut4">Representation learning for acting and planning: A top-down approach</a></li>
+    
+    <li><a href="/tutorials/tut5">CraftBots (co-run with IntEx Workshop)</a></li>
+    
+  </ul>
+</section>
+
+    </div>
+    <div class="9u 12u(mobile)">
+      <section>
+        <header>
+          <h1 class="top">Efficient Neural-Symbolic Reasoning Via Reinforcement Learning</h1>
+          <br />
+          <h1><span style="color:red">Cancelled:</span> Recording will be uploaded, but the live tutorial will not take place</h1>
+          <br />
+          <h2>An ICAPS'22 Tutorial</h2>
+          <h2>(half day)</h2>
+          <p>June 17, 2022</p>
+        </header>
+      </section>
+
+      <section>
+        <header>
+          <h1>Description</h1>
+        </header>
+
+        <p>Neural-symbolic reasoning has a wide range of applications, including natural language understanding,
+          explainable inference and reasoning, and medical treatment. Integrating reinforcement learning (RL) and
+          neural-symbolic reasoning has a long history, and has developed primarily in several major directions. The
+          first direction applies neural operators such as tensor calculus to simulate logic reasoning. This family of
+          approaches uses binary tensors over constant domains to represent the predicates and tensor chain products to
+          simulate logic clauses. This family of methods is good at generalizing across different tasks, but the
+          reasoning path remains completely opaque. The second direction involves relaxed subset selection with a
+          predefined set of task-specific logic clauses. This approach reduces the task to a subset-selection problem by
+          selecting a subset of clauses from the predefined set and using deep RL approaches to search for a relaxed
+          solution. This approach family is good at finding an explicit solution path to the selected subset, but the
+          predefined clause set's task-specificity restricts generalizability. The third direction is Neural Relational
+          RL, which integrates RL with statistical relational learning and connects RL with classical AI for knowledge
+          representation and reasoning. More recently, proposed to incorporate relational inductive bias, proposed deep
+          relational RL, proposed strategic object-oriented RL, and other researchers have also adopted deep learning
+          approaches for dealing with relations and reasoning.</p>
+
+        <p>Another important area of neural-symbolic reasoning and inference using RL is multi-agent planning and
+          scheduling, which involves several extra challenges, such as scalability with multiple decision-makers,
+          partial observability, and uncertainty. Several important research challenges remain unresolved. The first is
+          efficiently compiling domain knowledge in a compact form using knowledge compilation engines such as
+          logic-based decision diagrams. The second involves developing modular techniques to integrate domain knowledge
+          with deep multi-agent RL algorithms. The third challenge is developing computationally efficient algorithms to
+          query the compiled knowledge for accelerated episode simulation in RL.</p>
+
+        <p>This tutorial aims to provide state-of-the-art progress in single-agent and multi-agent neural-symbolic
+          reasoning and inference, identify existing challenges and bottlenecks, and indicate promising future research
+          directions and application potentials.</p>
+
+      </section>
+
+      <section>
+        <header>
+          <h1>Target audience</h1>
+        </header>
+        <p>The primary target audience for this proposed tutorial is students and researchers interested in
+          neural-symbolic reasoning and planning. This tutorial should also be of interest to researchers on applied RL
+          research. We also anticipate that this tutorial will appeal to industry participants interested in applied
+          work and to decision-making practitioners who may be interested in learning more about the specific techniques
+          employed in this important class of decision-making.</p>
+
+        <p>The tutorial aims to be self-contained. The idea is to provide all the knowledge needed to understand the
+          topics discussed in the tutorial. However, a basic understanding of neural-symbolic reasoning, RL, and
+          planning can be helpful for better comprehension.</p>
+      </section>
+
+      <section>
+        <header>
+          <h1>Outline</h1>
+        </header>
+        <ul>
+          <li>Motivations<ul>
+              <li>Motivating domains: control, robotics, e-commerce, autonomous driving, medical treatment, etc.</li>
+              <li>Goal: provide algorithms for neural-symbolic reasoning with RL</li>
+              <li>What are the challenges of designing and deploying RL-based neural-symbolic reasoning algorithms?</li>
+            </ul>
+          </li>
+          <li>Introduction to neural-symbolic reasoning and RL<ul>
+              <li>Neural-symbolic reasoning</li>
+              <li>Single-agent RL and Multi-agent RL</li>
+              <li>Relational RL</li>
+            </ul>
+          </li>
+          <li>Single-agent RL-based neural-symbolic reasoning<ul>
+              <li>Definition and examples</li>
+              <li>Some representative algorithms</li>
+              <li>Experimental results</li>
+            </ul>
+          </li>
+          <li>Multi-agent RL-based neural-symbolic reasoning<ul>
+              <li>Definition and examples</li>
+              <li>Some representative algorithms</li>
+              <li>Experimental results● Emerging directions and challenges</li>
+              <li>Natural language understanding and reasoning</li>
+              <li>Explainable logic inference and reasoning</li>
+              <li>Medical treatment</li>
+            </ul>
+          </li>
+          <li>General discussion/questions</li>
+        </ul>
+      </section>
+
+      <section>
+        <header>
+          <h1>Bios</h1>
+        </header>
+
+        <h2>Bo Liu</h2>
+        <p>Bo Liu is a tenure-track assistant professor in the Computer Science Department at Auburn University. He
+          obtained his Ph.D. from Autonomous Learning Lab at the University of Massachusetts Amherst, 2015, co-led by
+          Drs. Sridhar Mahadevan and Andrew Barto. His research areas cover decision-making under uncertainty,
+          human-aided machine learning, symbolic AI, trustworthiness and interpretability in machine learning, and their
+          applications to BIGDATA, autonomous driving, and healthcare informatics. He is a recipient and the Tencent
+          Faculty Research Award'2017 and Amazon Faculty Research Award'2018. He is an associate editor of IEEE
+          Transactions on Neural Networks and Learning Systems (IEEE-TNN), an editorial member of Machine Learning
+          (MLJ), an IEEE senior member, and a regular Area Chair/Senior PC of several flagship AI conferences, including
+          UAI/AAAI/IJCAI.</p>
+
+        <h2>Daoming Lyu</h2>
+        <p>Daoming Lyu is a Ph.D. student in the Dept. of Computer Science and Software Engineering at Auburn
+          University. He works with Prof. Bo Liu in the Computational Autonomous Learning Lab. His research lies in
+          reinforcement learning, trustworthy decision-making, symbolic AI, and healthcare informatics.</p>
+
+        <h2>Jianshu Chen</h2>
+        <p>Jianshu Chen is a principal researcher at Tencent AI Lab, Bellevue, WA. Before that, he was a researcher at
+          Microsoft Research, Redmond, WA. He completed his PhD in Electrical Engineering at University of California,
+          Los Angeles (UCLA), in 2014. His primary research interest covers different aspects of machine learning,
+          including self-supervised learning, reinforcement learning, neuro-symbolic reasoning, and natural language
+          processing.</p>
+
+        <h2>Akshat Kumar</h2>
+        <p>Akshat Kumar is an Associate Professor and Lee Kong Chian Fellow at the School of Computing and Information
+          Systems at SMU. His research interests lie at the intersection of Artificial Intelligence (AI) and Machine
+          Learning (ML). His work has received the best dissertation award at ICAPS-14 and from the School of Computer
+          Science, University of Massachusetts Amherst USA, a best application paper award at ICAPS-14, best paper at
+          theAAAI-17 computational sustainability track, best demo paper award at the AAMAS-21 conference. He has also
+          featured in the IEEE Intelligent System’s Magazine’s 2018 AI’s ten to watch. He was the co-chair of the
+          ICAPS-19 doctoral consortium, co-chair of the ICAPS-18 planning and learning track, and part of the AAMAS-16
+          local organizing committee. He is also one of the conference chairs for ICAPS 2022.</p>
+
+        <h2>Jiajing Ling</h2>
+        <p>Jiajing Ling is a Ph.D. candidate in Computer Science at Singapore Management University. He is supervised by
+          Prof. Akshat KUMAR. His research fields include reinforcement learning, large-scale multi-agent decision
+          making, urban system optimization, and propositional logic.</p>
+
+      </section>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div id="footer-wrapper">
+	<footer id="footer" class="container">
+  <div class="row">
+    <div class="8u 12u(mobile)">
+      <!--ul id="sponsor-list">
+        SPONSORS:
+        <li><a href="http://www.adventiumlabs.com/"><img src="/images/sponsor-logos/AdventiumLabs.jpg"
+              class="sponsor-img" alt="Adventium Labs" style="width:130px"></a></li>
+        <li><a href="http://www.sift.net/"><img src="/images/sponsor-logos/Sift.png" class="sponsor-img" alt="SIFT"
+              style="width:180px"></a></li>
+        <li><a href="http://www.ibm.com/"><img src="/images/sponsor-logos/IBM.png" class="sponsor-img" alt="IBM"
+              style="width:150px"></a></li>
+        <li><a href="https://ti.arc.nasa.gov/profile/de2smith/"><img src="/images/sponsor-logos/smith.gif"
+              class="sponsor-img profile-image" alt="David Smith" style="width:80px"></a></li>
+        <li><a href="http://www.nsf.gov/"><img src="/images/sponsor-logos/NSF.jpg" class="sponsor-img"
+              alt="National Science Foundation" style="width:100px"></a></li>
+        <li><a href="http://www.wpafb.af.mil/afrl/afosr/"><img src="/images/sponsor-logos/AFOSR.gif" class="sponsor-img"
+              alt="Air Force Office of Scientific Research" style="width:140px"></a></li>
+        <li><a href="https://ohmnilabs.com/"><img src="/images/sponsor-logos/ohmni.png" class="sponsor-img"
+              alt="Ohmnilabs" style="width:100px"></a></li>
+        <li><a href="http://www.journals.elsevier.com/artificial-intelligence/"><img src="/images/sponsor-logos/aij.png"
+              class="sponsor-img" alt="Artificial Intelligence Journal" style="width:80px"></a></li>
+        <li><a href="http://www.cmu.edu/"><img src="/images/sponsor-logos/cmu.png" class="sponsor-img"
+              alt="Carnegie Mellon University" style="width:240px"></a></li>
+        <li><a href="https://www.eurai.org/"><img src="images/sponsor-logos/eurai.png" class="sponsor-img"
+              alt="European Association for Artifical Intelligence" style="width:100px"></a></li>
+        <li><a href="http://www.unimelb.edu.au/"><img src="images/sponsor-logos/unimelb.png" class="sponsor-img"
+              alt="University of Melbourne" style="width:180px"></a></li>
+        <li><a href="http://computational-sustainability.cis.cornell.edu/"><img src="images/sponsor-logos/ics.png"
+              class="sponsor-img" alt="Institute for Computational Sustainability" style="width:120px"></a></li>
+        <ul-->
+    </div>
+    <div class="4u 12u(mobile)">
+      <section>
+        <p>
+          <a href="http://www.icaps-conference.org/">ICAPS</a> is the premier
+          forum for exchanging news and research results on theory and applications of intelligent planning and
+          scheduling technology.
+        </p>
+        <ul class="social-list">
+          <!--
+          <li><a href="https://www.facebook.com/icapsconference"><img src="images/SVGfacebook.svg" alt="Facebook logo" /></a></li>
+          <li><a href="https://twitter.com/icapsconference"><img src="images/SVGtwitter.svg" alt="Twitter logo" /></a></li>
+          <li><a href="https://plus.google.com/+ICAPSConference/about"><img src="images/SVGgoogle.svg" alt="Google Plus Logo" /></a></li>
+	  -->
+        </ul>
+      </section>
+    </div>
+  </div>
+</footer>
+<div id="copyright">
+  &copy; 2022 ICAPS
+</div>
+      </div>
+    </div>
+</body>
+</html>

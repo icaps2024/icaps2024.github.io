@@ -1,0 +1,77 @@
+---
+title: paper-209
+layout: page
+---
+<head>
+<style>
+div1 {
+  background-color: lightgrey;
+  width: 30px;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 1px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}.button2 {
+  background-color: white;
+  color: black; 
+  border: 2px solid red;
+}
+.button2:hover {
+  background-color: red;
+  color: white;
+}
+</style>
+</head>
+<div class='container'>
+  <div class='row'>
+      <div class='3u 12u(mobile)'>
+      <section>
+       <button class='button button2' onclick=" window.open('https://ojs.aaai.org/index.php/ICAPS/article/view/19843/19602','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> PDF</button>
+<br><br><h3 class='top'>Talk Sessions: </h3>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#7b','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 21, Session 7b</button>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#9b','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 22, Session 9b</button>
+<br><br><h3 class='top'>Poster Sessions: </h3>
+<button class='button button2' onclick=" window.open('http://icaps22.icaps-conference.org/posters/Distributed_Fleet_Management_in_Noisy_Environments_poster.pdf','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> Poster</button><br><br>
+<div1> June 21, Booth 35</div1> <br><br>
+<div1> June 22, Booth 32</div1> <br><br>
+</section>
+ </div>
+<div class='9u 12u(mobile)'>
+    <section>
+      <header>
+        <h1 class='top'>Distributed Fleet Management in Noisy Environments via Model-Predictive Control</h1>
+        <h3>Simon Bøgh, Peter G. Jensen, Martin Kristjansen, Kim G. Larsen and Ulrik Nyman</h3>
+      </header>
+<b>Abstract:</b> We consider dynamic route planning for a fleet of Autonomous Mobile Robots (AMRs) doing fetch and carry tasks on a shared factory floor. In this paper, we propose Stochastic Work Graphs (SWG) as a formalism for capturing the semantics of such distributed and uncertain planning problems. We encode SWGs in the form of a Euclidean Markov Decision Process (EMDP) in the tool Uppaal Stratego, which employs Q-Learning to synthesize near-optimal plans. Furthermore, we deploy the tool in an online and distributed fashion to facilitate scalable, rapid replanning. While executing their current plan, each AMR generates a new plan incorporating updated information about the other AMRs positions and plans. We propose a two-layer Model Predictive Controller-structure (waypoint and station planning), each individually solved by the Q-learning-based solver. We demonstrate our approach using ARGoS3 large-scale robot simulation, where we simulate the AMR movement and observe an up to 27.5% improvement in makespan over a greedy approach to planning. To do so, we have implemented the full software stack, translating observations into SWGs and solving those with our proposed method. In addition, we construct a benchmark platform for comparing planning techniques on a reasonably realistic physical simulation and provide this under the MIT open-source license.<br><br>
+<div id='presentation-embed-38982812'></div>
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<script>
+embed = new SlidesLiveEmbed('presentation-embed-38982812', { 
+ presentationId: '38982812',
+ autoPlay: false,
+ verticalEnabled: true, 
+   });
+</script>
+<h4><p style='color:red'><sup>*</sup>This password protected talk video will only be available after it was presented at the conference.</p></h4></section>
+  </div>
+  </div>
+</div>

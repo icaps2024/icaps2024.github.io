@@ -1,0 +1,18 @@
+      <section>
+        <header>
+          <h3 class="top">Workshops</h3>
+        </header>
+        <ul class="link-list">
+        {% for workshop in site.data.workshops %}
+          <li>
+          {% if workshop.url %}
+            <a href="{{ workshop.url }}">{{ workshop.nick }}</a>
+          {% elsif workshop.ready %}
+            <a href="/workshops/{{ workshop.nick }}/">{{ workshop.nick }}</a>
+          {% else %}
+            {{ workshop.nick }}
+          {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </section>

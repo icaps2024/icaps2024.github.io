@@ -1,0 +1,66 @@
+---
+- nick: HPlan
+  name: Hierarchical Planning
+  team: Pascal Bercher, Jane Jean Kiam, Arthur Bit-Monnot, Ron Alford
+  contact: pascal.bercher@anu.edu.au
+  ready: true
+
+- nick: PRL
+  name: Bridging the Gap Between AI Planning and Reinforcement Learning
+  team: MIchael Katz, Hector Palacios, Vincenc Gomez
+  contact: michael.katz1@ibm.com
+  ready: true
+
+- nick: RDDPS
+  name: Reliable Data-Driven Planning and Scheduling
+  team: Jörg Hoffmann, Sara Bernardini, Alan Fern, Michele Lombardi, Hector Palacios, Scott Sanner, Marcel Steinmetz, Sylvie Thiebaux
+  contact: hoffmann@cs.uni-saarland.de
+  ready: true
+
+- nick: PlanRob
+  name: Planning and Robotics
+  team: Iman Awaad, Alberto Finzi, Andrea Orlandini
+  contact: andrea.orlandini@istc.cnr.it
+  ready: true
+
+- nick: XAIP
+  name: Workshop on Explainable AI Planning
+  team: Sarath Sreedharan, Rebecca Eifler, Alan Lindsay, Silvia Tulli, Benjamin Krarup, Stylianos Loukas Vasileiou
+  contact: ssreedh3@asu.edu
+  ready: true
+
+- nick: IntEx
+  name: Integrated Planning, Acting, and Execution
+  team: Wiktor Piotrowski, Sunandita Patra, Mark "Mak" Roberts, Tiago Vaquero
+  contact: wiktorpi@parc.com
+  ready: true
+
+- nick: FinPlan
+  name: Planning for Financial Services
+  team: Parisa Zehtabi, Alberto Pozanco, Shirin Sohrabi
+  contact: ssohrab@us.ibm.com
+  ready: true
+
+- nick: DAPSPAC
+  name: Deception Against Planning Systems and Planning in Adversarial Conditions
+  team: Lukas Chrpa, Mauro Vallati, Ron Alford, Andy Applebaum
+  contact: ralford@mitre.org
+  ready: true
+
+- nick: HSDIP
+  name: Heuristics and Search for Domain-independent Planning
+  team: Liat Cohen, Patrick Ferber, Daniel Fiser, Michael Katz, Christian Muise
+  contact: patrick.ferber@unibas.ch
+  ready: true
+
+- nick: SPARK
+  name: Scheduling and Planning Applications
+  team: Marco Roveri,  Simon Parkinson,  Riccardo DeBenedictis,  Sabine Storandt
+  contact: marco.roveri@unitn.it
+  ready: true
+
+- nick: KEPS
+  name: Knowledge Engineering for Planning and Scheduling
+  team: Lukas Chrpa, Ron Petrick, Mauro Vallati, Tiago Vaquero
+  contact: M.Vallati@hud.ac.uk
+  ready: true

@@ -1,0 +1,22 @@
+time,type,name,authors
+Day 1 - June 14 -- 12:00-15:00(UTC)  14:00-17:00(CET),day,,
+12:00-13:10,break,<h4>Workshop opening</h4>,
+12:10-13:20,break,<h4>Session 1 - Scheduling</h4>
+,,"<a href='papers/spark2022_paper_3.pdf'>Predictive Maintenance Scheduling in Twice Re-entrant Flow Shops with Due Dates</a>","Eghonghon-Aye Eigbe, Bart De Schutter, Mitra Nasri and Neil Yorke-Smith"
+,,"<a href='papers/spark2022_paper_4.pdf'>Scheduling Deep Learning Jobs Training in the Cloud: Comparing Multiple Approaches</a>","Michele Precuzzi, Federica Filippini and Danilo Ardagna"
+13:10-13:20,break,Break,
+13:20-14:50,break,<h4>Session 2 - Space and Robotics</h4>,
+,,"<a href='papers/spark2022_paper_8.pdf'>Copiloting Autonomous Multi-Robot Missions: A Game-inspired Supervisory Control Interface</a>","Marcel Kaufmann, Robert Trybula, Ryan Stonebraker, Michael Milano,
+Correa, Tiago S. Vaquero, Kyohei Otsu, Ali-Akbar Agha-Mohammadi and Giovanni Beltrame"
+,,"<a href='papers/spark2022_paper_7.pdf'>Scheduling Within a Demand Access Paradigm for NASA&#39;s Deep Space Network</a>","Nihal Dhamani, Mark Johnston and Girly Lucena"
+,,"<a href='papers/spark2022_paper_9.pdf'>On Bringing HTN Domains Closer to Reality - The Case of Satellite and Rover Domains</a>","Ebaa Alnazer, Ilche Georgievski and Marco Aiello"
+14:50-15:00,break,<h4>First Day - Closing remarks</h4>,
+Day 2 - June 15 -- 12:00-14:30(UTC)  14:00(CET)-16:30(CET),day,Session 3 Storytelling,
+12:00-14:20,break,<h4>Session 3 - Storytelling</h4>,
+,,"<a href='papers/spark2022_paper_2.pdf'>TattleTale: Storytelling with Planning and Large Language Models</a>","Nisha Simon and Christian Muise"
+,,"<a href='papers/spark2022_paper_5.pdf'>Towards Believable Non-Player Characters with Domain-Independent Planning</a>","Nicklas Slorup Johanssen, Lasse Brink Kaer, Jonas Alexander Baungaard Stolberg, Rasmus Grønkjær Tollund, Nikolaj Hyldig, Paw Oktober and Álvaro Torralba"
+13:00-13:10,break,Break,
+13:20-14:20,break,<h4>Session 4 - Novel Applications</h4>,
+,,"<a href='papers/spark2022_paper_1.pdf'>Fast Solution for Evacuation Shelter Closing Problem</a>","Hitoshi Shimizu, Hirohiko Suwa, Tomoharu Iwata, Akinori Fujino, Hiroshi Sawada and Keiichi Yasumoto"
+,,"<a href='papers/spark2022_paper_6.pdf'>Leveraging Planning Landmarks for Hybrid Online Goal Recognition</a>","Nils Wilken, Lea Cohausz, Johannes Schaum, Stefan Lüdtke, Christian Bartelt and Heiner Stuckenschmidt"
+14:20-14:30,break,<h4>Final closing remarks</h4>,

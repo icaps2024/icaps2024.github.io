@@ -1,0 +1,124 @@
+---
+title: "ICAPS Tutorial: Representation learning for acting and planning: A top-down approach"
+layout: page
+---
+<div class="container">
+  <div class="row">
+    <div class="3u 12u(mobile) important(mobile)">
+      <section>
+        <header>
+          <h3 class="top">Date </h3>
+        </header>
+        <ul class="check-list">
+          <li><strong>June 14</strong></li>
+        </ul>
+      </section>
+      {% include tutorials.html %}
+    </div>
+    <div class="9u 12u(mobile)">
+      <section>
+        <header>
+          <h1 class="top">Representation learning for acting and planning: A top-down approach</h1>
+          <h2>An ICAPS'22 Tutorial</h2>
+          <h2>(quarter day)</h2>
+          <p>June 14, 2022</p>
+        </header>
+      </section>
+
+      <section>
+        <header>
+          <h1>Description</h1>
+        </header>
+
+        <p>In bottom-up approaches to representation learning, the learned representations are those that result from a
+          deep neural net after training. In top-down approaches, representations are learned over a formal language
+          with a known semantics, whether by deep learning or by any other method. There is a clean distinction between
+          what representations need to be learned (e.g., in order to generalize), and how such representations are to be
+          learned. The setting of action and planning provides a rich and challenging context for representation
+          learning where the benefits of top-down approaches can be shown. Three central learning problems in planning
+          are: learning representations of dynamics that generalize, learning policies that are general and apply to
+          many instances, and learning the common subgoal structure of problems; what in reinforcemenet learning are
+          called intrinsic rewards. In the tutorial, we will look at languages developed to support these
+          representations and methods developed for learning representations over such languages.</p>
+
+      </section>
+
+      <section>
+        <header>
+          <h1>Target audience</h1>
+        </header>
+        <p>Students and researchers interested in representation learning, in the setting of actions and planning. Basic
+          knowledge of AI and planning is assumed.</p>
+      </section>
+
+      <section>
+        <header>
+          <h1>Outline</h1>
+        </header>
+        <ul>
+          <li>PART 0. Introduction. General idea: Learning representations over languages<ul>
+              <li>Bottom up vs. top down approaches to representation learning</li>
+              <li>Goals and focus of the tutorial</li>
+            </ul>
+          </li>
+          <li>Part I. Representations: Dynamics, policies, subgoals<ul>
+              <li>Representing Dynamics: Syntax and Semantics (Lifted STRIPS, PDDL, SAS+, etc)</li>
+              <li>Representing General Policies: Feature-based representations. General policies and QNPs. General
+                policies and width. Transfer learning and one-shot generalization.</li>
+              <li>Representing Subgoal Structure: Macro tables, HTNs, Sketches, Problem and sketch width.</li>
+            </ul>
+          </li>
+          <li>Part II: Learning representations of dynamics, policies, subgoals<ul>
+              <li>Learning general action dynamics given: a) the domain predicates and objects, b) sequences of ground
+                actions, c) action labels, d) states as images or parsed images.</li>
+              <li>Learning general policies: a) Find most compact general policies representation that solves sample
+                problems, b) Learning feature-based policies and feature-based value functions, c) Synthesis of general
+                policies from specifications vs. learning them from examples.</li>
+              <li>Learning subgoal structures and hierarchies: Learning HTNs. Learning sketches.</li>
+            </ul>
+          </li>
+          <li>Part III: Learning general dynamics and policies with deep (reinforcement) learning<ul>
+              <li>Formulations, Results, Open Problems, Challenges</li>
+              <li>Features, Finite-Variable Logic, and GNNs</li>
+            </ul>
+          </li>
+          <li>Part IV: Future, Challenges<ul>
+              <li>Continuous domains, spaces, actions, and time</li>
+              <li>Stochastic and non-deterministic domains</li>
+              <li>Extended temporal Goals</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <header>
+          <h1>Bios</h1>
+        </header>
+
+        <h2>Blai Bonet</h2>
+        <p>Blai Bonet: Blai is a professor in the computer science department at Universidad Simon Bolivar, Venezuela.
+          He received his Ph.D. degree in computer science in 2004 from the University of California, Los Angeles. His
+          research interests are in the areas of automated planning, heuristic search and knowledge representation. He
+          has received several best paper awards or honorable mentions, including the 2009 and 2014 ICAPS Influential
+          Paper Awards, and he is a co-author of the book ”A Concise Introduction to Models and Methods for Automated
+          Planning”. Dr. Bonet has served as associate editor of Artificial Intelligence and the Journal of Artificial
+          Intelligence Research, conference co-chair of ICAPS-12, program co-chair of AAAI-15, and has been a member of
+          the Executive Council for ICAPS and AAAI.</p>
+
+        <h2>Hector Geffner</h2>
+        <p>Hector Geffner: Hector got his Ph.D at UCLA with a dissertation that was co-winner of the 1990 ACM
+          Dissertation Award. He then worked as Staff Research Member at the IBM T.J. Watson Research Center in NY, USA
+          and at the Universidad Simon Bolivar, in Caracas, Venezuela. Since 2001, he is a researcher at ICREA and a
+          professor at the Universitat Pompeu Fabra, Barcelona, and since 2019, a Wallenberg Guest Professor at
+          Linköping University, Sweden. Hector is a Fellow of AAAI and EurAI, and the author of the book “Default
+          Reasoning: Causal and Conditional Theories” , MIT Press, 1992, editor of ”Heuristics, Probability, and
+          Causality: a Tribute to Judea Pearl” along with R. Dechter and Joe Halpern, College Publications, 2010, and
+          author of ”A Concise Introduction to Models and Methods for Automated Planning” with Blai Bonet, Morgan and
+          Claypool, 2013. He leads a project on representation learning for planning (RLeap), funded by an Advanced ERC
+          grant (2020–2025).</p>
+
+      </section>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,73 @@
+---
+title: ICAPS 2022 System Demonstrations
+layout: page
+---
+<div class="container">
+
+  <div class="row">
+    <div class="12u 12u(mobile)">
+      <section>
+        <header>
+          <h1 class="top">ICAPS 2022 System Demonstrations</h1>
+        </header>
+        <p>Demos will be available in gather.town at all times throughout the ICAPS conference. See at the bottom of
+          each card the guaranteed authors' availability time slots. However, the authors might be available to discuss
+          their demo outside the suggested time slots during the "Poster and Demo sessions"</p>
+
+        <p>You can also access the demo videos from the cards below, and you will be required to use the common
+          conference password provided via email.</p>
+
+        <h3>Voting</h3>
+        <p>Log in to gather.town to vote for the best demo award. Voting will be open from June 23, 2022 11UTC</p>
+      </section>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="3u 12u(mobile)">
+      <section>
+        <header>
+          <h3 class="top">Demos</h3>
+        </header>
+        <ul id="demo-link-list" class="check-list"></ul>
+      </section>
+    </div>
+
+    <div class="9u 12u(mobile)">
+      {% include demo-list.html %}
+    </div>
+
+  </div>
+</div>
+
+
+
+<script>
+  $(document).ready(function () {
+    // Get an array of all the demo divs
+    var demos = $('.demo');
+    // Randomly shuffle them
+    demos.sort(function () {
+      return 0.5 - Math.random();
+    });
+
+    // Remove them from the demo-list div's
+    demos.detach();
+
+    // Iterate over the demos
+    for (var i = 0; i < 5; i++) {
+      var id = demos[i].id;
+      var title = demos[i].getElementsByClassName('demo-title')[0].innerHTML;
+      $('#demo-link-list').append('<li><a href="#' + id + '">' + title + '</a></li>');
+      id = demos[i + 5].id;
+      title = demos[i + 5].getElementsByClassName('demo-title')[0].innerHTML;
+      $('#demo-link-list').append('<li><a href="#' + id + '">' + title + '</a></li>');
+    }
+
+    // Add the first 5 to the demo-list-1 div
+    $('#demo-list-1').append(demos.slice(0, 5));
+    // Add the next 5 to the demo-list-2 div
+    $('#demo-list-2').append(demos.slice(5, 10));
+  });
+</script>

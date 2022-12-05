@@ -1,0 +1,75 @@
+Slot,Time,day,weekday,session1,session2,type
+0,6,1,Tuesday 21,Opening,Opening,Joint
+1,7,1,Tuesday 21,Invited Talk: Malte Helmert,helmert,Joint
+2,8,1,Tuesday 21,Social: Get Together,Social: Get Together,Joint
+3,9,1,Tuesday 21,1a,1b,Single
+4,10,1,Tuesday 21,2a,2b,Single
+5,11,1,Tuesday 21,Poster and Demo Session,Poster and Demo Session,Joint
+6,12,1,Tuesday 21,None,None,Empty
+7,13,1,Tuesday 21,3a,3b,Single
+8,14,1,Tuesday 21,4a,4b,Single
+9,15,1,Tuesday 21,Diversity,Diversity,Joint
+10,16,1,Tuesday 21,5a,5b,Single
+11,17,1,Tuesday 21,6a,6b,Single
+12,18,1,Tuesday 21,Poster and Demo Session,Poster and Demo Session,Joint
+13,19,1,Tuesday 21,None,None,Empty
+14,20,1,Tuesday 21,7a,7b,Single
+15,21,1,Tuesday 21,Social: Speed Dating,Social: Speed Dating,Joint
+16,22,1,Tuesday 21,8a,8b,Single
+17,23,1,Tuesday 21,Invited Talk: Sven Koenig,koenig,Joint
+18,24,1,Tuesday 21,Social: Games,Social: Games,Joint
+0,6,2,Wednesday 22,None,None,Empty
+1,7,2,Wednesday 22,9a,9b,Single
+2,8,2,Wednesday 22,Social: Diversity Follow Up,Social: Diversity Follow Up,Joint
+3,9,2,Wednesday 22,10a,10b,Single
+4,10,2,Wednesday 22,11a,11b,Single
+5,11,2,Wednesday 22,Competition Panel,Competition Panel,Joint
+6,12,2,Wednesday 22,None,None,Empty
+7,13,2,Wednesday 22,12a,12b,Single
+8,14,2,Wednesday 22,13a,13b,Single
+9,15,2,Wednesday 22,Social: Pseudonym Get Together,Social: Pseudonym Get Together,Joint
+10,16,2,Wednesday 22,Invited Talk: Emma Brunskill,brunskill,Joint
+11,17,2,Wednesday 22,14a,14b,Single
+12,18,2,Wednesday 22,Poster and Demo Session,Poster and Demo Session,Joint
+13,19,2,Wednesday 22,None,None,Empty
+14,20,2,Wednesday 22,15a,15b,Single
+15,21,2,Wednesday 22,Social: Pseudonym Get Together,Social: Pseudonym Get Together,Joint
+16,22,2,Wednesday 22,16a,16b,Single
+17,23,2,Wednesday 22,17a,17b,Single
+18,24,2,Wednesday 22,Poster and Demo Session,Poster and Demo Session,Joint
+0,6,3,Thursday 23,None,None,Empty
+1,7,3,Thursday 23,18a,18b,Single
+2,8,3,Thursday 23,Social: Games,Social: Games,Joint
+3,9,3,Thursday 23,19a,19b,Single
+4,10,3,Thursday 23,20a,20b,Single
+5,11,3,Thursday 23,Poster and Demo Session,Poster and Demo Session,Joint
+6,12,3,Thursday 23,None,None,Empty
+7,13,3,Thursday 23,Industry Panel,Industry Panel,Joint
+8,14,3,Thursday 23,21a,21b,Single
+9,15,3,Thursday 23,Social: Puzzle Game Team Challenge,Social: Puzzle Game Team Challenge,Joint
+10,16,3,Thursday 23,22a,22b,Single
+11,17,3,Thursday 23,23a,23b,Single
+12,18,3,Thursday 23,Invited Talk: Sidd Srinivasa,srinivasa,Joint
+13,19,3,Thursday 23,None,None,Empty
+14,20,3,Thursday 23,24a,24b,Single
+15,21,3,Thursday 23,Social: Open Discussion,Social: Open Discussion,Joint
+16,22,3,Thursday 23,25a,25b,Single
+17,23,3,Thursday 23,26a,26b,Single
+18,24,3,Thursday 23,Poster and Demo Session,Poster and Demo Session,Joint
+0,6,4,Friday 24,None,None,Empty
+1,7,4,Friday 24,Invited Talk: Tim Miller,miller,Joint
+2,8,4,Friday 24,Social: Open Discussion,Social: Open Discussion,Joint
+3,9,4,Friday 24,27a,27b,Single
+4,10,4,Friday 24,28a,28b,Single
+5,11,4,Friday 24,Poster and Demo Session,Poster and Demo Session,Joint
+6,12,4,Friday 24,None,None,Empty
+7,13,4,Friday 24,29a,29b,Single
+8,14,4,Friday 24,Community Meeting,Community Meeting,Joint
+10,16,4,Friday 24,30a,30b,Single
+11,17,4,Friday 24,31a,31b,Single
+13,19,4,Friday 24,Closing and Final Get Together,Closing and Final Get Together,Joint
+14,20,4,Friday 24,None,None,Empty
+15,21,4,Friday 24,None,None,Empty
+16,22,4,Friday 24,None,None,Empty
+17,23,4,Friday 24,None,None,Empty
+18,24,4,Friday 24,None,None,Empty

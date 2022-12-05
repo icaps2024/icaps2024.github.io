@@ -1,0 +1,79 @@
+---
+title: paper-53
+layout: page
+---
+<head>
+<style>
+div1 {
+  background-color: lightgrey;
+  width: 30px;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 1px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}.button2 {
+  background-color: white;
+  color: black; 
+  border: 2px solid red;
+}
+.button2:hover {
+  background-color: red;
+  color: white;
+}
+</style>
+</head>
+<div class='container'>
+  <div class='row'>
+      <div class='3u 12u(mobile)'>
+      <section>
+       <button class='button button2' onclick=" window.open('https://ojs.aaai.org/index.php/ICAPS/article/view/19829/19588','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> PDF</button>
+<br><br><h3 class='top'>Talk Sessions: </h3>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#2a','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 21, Session 2a</button>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#24a','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 23, Session 24a</button>
+<br><br><h3 class='top'>Poster Sessions: </h3>
+<button class='button button2' onclick=" window.open('http://icaps22.icaps-conference.org/posters/martijn-beeks-rl-based-order-batching-poster.pdf','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> Poster</button><br><br>
+<div1> June 21, Booth 10</div1> <br><br>
+<div1> June 23, Booth 6</div1> <br><br>
+</section>
+ </div>
+<div class='9u 12u(mobile)'>
+    <section>
+      <header>
+        <h1 class='top'>Deep reinforcement learning for a multi-objective online order batching problem</h1>
+        <h3>Martijn Beeks, Reza Refaei Afshar, Yingqian Zhang, Remco Dijkman, Claudy van Dorst and Stijn de Looijer</h3>
+      </header>
+<b>Abstract:</b> On-time delivery and low service costs are two important performance metrics in warehousing operations. This paper proposes a Deep Reinforcement Learning (DRL) based approach to solve the online Order Batching and Sequence Problem (OBSP) to optimize these two objectives. 
+To learn how to balance the trade-off between two objectives, we introduce a Bayesian optimization framework to shape the reward function of the DRL agent, such that the influences of learning to these objectives are adjusted to different environments. We compare our approach with several heuristics using problem instances of real-world size where thousands of orders arrive dynamically per hour. 
+We show the Proximal Policy Optimization (PPO) algorithm with Bayesian optimization outperforms the heuristics in all tested scenarios on both objectives. In addition, it finds different weights for the components in the reward function in different scenarios, indicating its capability of learning how to set the importance of two objectives under different environments. We also provide policy analysis on the learned DRL agent, where a decision tree is used to infer decision rules to enable the interpretability of the DRL approach.<br><br>
+<div id='presentation-embed-38982816'></div>
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<script>
+embed = new SlidesLiveEmbed('presentation-embed-38982816', { 
+ presentationId: '38982816',
+ autoPlay: false,
+ verticalEnabled: true, 
+   });
+</script>
+<h4><p style='color:red'><sup>*</sup>This password protected talk video will only be available after it was presented at the conference.</p></h4></section>
+  </div>
+  </div>
+</div>

@@ -1,0 +1,77 @@
+---
+title: paper-257
+layout: page
+---
+<head>
+<style>
+div1 {
+  background-color: lightgrey;
+  width: 30px;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 1px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}.button2 {
+  background-color: white;
+  color: black; 
+  border: 2px solid red;
+}
+.button2:hover {
+  background-color: red;
+  color: white;
+}
+</style>
+</head>
+<div class='container'>
+  <div class='row'>
+      <div class='3u 12u(mobile)'>
+      <section>
+       <button class='button button2' onclick=" window.open('https://ojs.aaai.org/index.php/ICAPS/article/view/19786/19545','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> PDF</button>
+<br><br><h3 class='top'>Talk Sessions: </h3>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#1a','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 21, Session 1a</button>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#15a','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 22, Session 15a</button>
+<br><br><h3 class='top'>Poster Sessions: </h3>
+<button class='button button2' onclick=" window.open('http://icaps22.icaps-conference.org/posters/icaps2022_paper257_drexler_et_al.pdf','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> Poster</button><br><br>
+<div1> June 21, Booth 42</div1> <br><br>
+<div1> June 22, Booth 37</div1> <br><br>
+</section>
+ </div>
+<div class='9u 12u(mobile)'>
+    <section>
+      <header>
+        <h1 class='top'>Learning Sketches for Decomposing Planning Problems into Subproblems of Bounded Width</h1>
+        <h3>Dominik Drexler, Jendrik Seipp and Hector Geffner</h3>
+      </header>
+<b>Abstract:</b> Recently, sketches have been introduced as a general language for representing the subgoal structure of instances drawn from the same domain. Sketches are collections of rules of the form C -> E over a given set of features where C expresses Boolean conditions and E expresses qualitative changes. Each sketch rule defines a subproblem: going from a state that satisfies C to a state that achieves the change expressed by E or a goal state. Sketches can encode simple goal serializations, general policies, or decompositions of bounded width that can be solved greedily, in polynomial time, by the SIW_R variant of the SIW algorithm. Previous work has shown the computational value of sketches over  benchmark domains that, while tractable, are challenging for domain-independent planners. In this work, we address the problem of learning sketches automatically given a planning domain, some instances of the target class of problems, and the desired bound on the sketch width. We present a logical formulation of the problem, an implementation using the ASP solver Clingo, and experimental results. The sketch learner and the SIW_R planner yield a domain-independent planner that learns and exploits domain structure in a crisp and explicit form.<br><br>
+<div id='presentation-embed-38982853'></div>
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<script>
+embed = new SlidesLiveEmbed('presentation-embed-38982853', { 
+ presentationId: '38982853',
+ autoPlay: false,
+ verticalEnabled: true, 
+   });
+</script>
+<h4><p style='color:red'><sup>*</sup>This password protected talk video will only be available after it was presented at the conference.</p></h4></section>
+  </div>
+  </div>
+</div>

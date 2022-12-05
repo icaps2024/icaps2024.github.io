@@ -1,0 +1,143 @@
+---
+title: ICAPS 2022 Schedule
+permalink: schedule
+layout: page
+---
+<div class="container">
+  <div class="row">
+    <div class="12u 12u(mobile)">
+      <!-- <section id="schedule-pdf">
+        <header>
+          <h1>ICAPS-2022 Schedule (PDF Format)</h1>
+        </header>
+	The following schedule is available in a <a href="/images//icaps17book.pdf">PDF format</a>.
+      </section> -->
+
+      <section id="schedule">
+        <header>
+          <h1>ICAPS-2022 Schedule Overview</h1>
+        </header>
+
+        <div id="overview"></div>
+        <!--
+          <h3>Sunday (June 18, 2017)</h3>
+          <table class="schedule-overview">
+          <tr><td>All Day</td><td><a href="/doctoral-consortium">Doctoral Consortium</a></td></tr>
+          </table>
+        -->
+
+
+        {% include condensed-schedule.html %}
+
+
+        <br/>
+        <div id="detailed"></div>
+
+        <h1>Detailed Schedule</h1>
+        {% assign day = 0 %}
+        {% assign started = false %}
+        {% for row in site.data.icaps_schedule_details %}
+        {% if row.Day != day %}
+          {% assign day = row.Day %}
+          {% if started %}</table>{% endif %}
+          {% assign started = true %}
+          <h3 class="schedule-date" id="{{row.Weekday | slugify}}">{{row.Weekday}}</h3>
+          <table class="schedule">
+        {% endif %}
+        {% if row.Type == "Joint" %}
+          {% if row.Session1 contains 'Opening' %}
+          <tr><td class="time">{{row.Time}}:00 UTC</td><td class="opening-remarks">{{row.Session1}}</td></tr>
+          {% elsif row.Session1 contains 'Invited Talk' %}
+          <tr><td class="time">{{row.Time}}:00 UTC</td><td class="invited-talk"><a href="/#{{row.Session2}}">{{row.Session1}}</a></td></tr>
+          {% elsif row.Session1 contains 'Social: Get Together' %}
+          <tr><td class="time">{{row.Time}}:00 UTC</td><td class="misc">{{row.Session1}}</td></tr>
+          {% elsif row.Session1 contains 'Social' %}
+          <tr><td class="time">{{row.Time}}:00 UTC</td><td class="misc"><a href="/social-events#{{row.Session2}}">{{row.Session1}}</a></td></tr>
+          {% elsif row.Session1 contains 'Diversity' %}
+          <tr><td class="time">{{row.Time}}:00 UTC</td><td class="misc">{{row.Session1}}</td></tr>
+          {% elsif row.Session1 contains 'Panel' %}
+          <tr><td class="time">{{row.Time}}:00 UTC</td><td class="invited-talk"><a href="/panels#{{row.Session2}}">{{row.Session1}}</a></td></tr>
+          {% elsif row.Session1 contains 'Poster' %}
+          <tr><td class="time">{{row.Time}}:00 UTC</td><td class="posters">{{row.Session1}}</td></tr>
+          {% else %}
+          <tr><td class="time">{{row.Time}}:00 UTC</td><td class="misc">{{row.Session1}}</td></tr>
+          {% endif %}
+        {% elsif row.Type == "Single" %}
+
+        {% assign chair1 = 'N/A' %}
+        {% assign chair2 = 'N/A' %}
+        {% assign chair1check = 'Session ' | append: row.Session1 | append: ':' %}
+        {% assign chair2check = 'Session ' | append: row.Session2 | append: ':' %}
+        {% for chairrow in site.data.session_chairs %}
+          {% if chairrow.Sessions contains chair1check %}
+            {% assign chair1 = chairrow.Chairs %}
+          {% endif %}
+          {% if chairrow.Sessions contains chair2check %}
+            {% assign chair2 = chairrow.Chairs %}
+          {% endif %}
+        {% endfor %}
+
+        <tr>
+            <td class="time">{{row.Time}}:00 UTC</td>
+            {% assign delaysuffix = "" %}
+            {% if row.Session1 contains '30a' %}
+            {% assign delaysuffix = " (delayed by 20min)" %}
+            {% endif %}
+            {% if row.Session1 contains '31a' %}
+            {% assign delaysuffix = " (delayed by 20min)" %}
+            {% endif %}
+            <td id="{{row.Session1 | slugify}}" class="session-title session-talk1">({{row.Session1}}) {{row.Session1_title}} {{delaysuffix}}<br />Session Chair: {{chair1}}</td>
+            <td id="{{row.Session2 | slugify}}" class="session-title session-talk2">({{row.Session2}}) {{row.Session2_title}} {{delaysuffix}}<br />Session Chair: {{chair2}}</td>
+          </tr>
+          {% assign session11 = (site.data.paper_details | where:"Session1",row.Session1) %}
+          {% assign session12 = (site.data.paper_details | where:"Session2",row.Session1) %}
+          {% assign session21 = (site.data.paper_details | where:"Session1",row.Session2) %}
+          {% assign session22 = (site.data.paper_details | where:"Session2",row.Session2) %}
+
+          {% assign session1 = session11 | concat:session12 %}
+          {% assign session2 = session21 | concat:session22 %}
+          {% for index in (0..10) %}
+          {% assign paper1 = session1[index] %}
+          {% assign paper2 = session2[index] %}
+          {% if paper1 == nil and paper2 == nil %}
+          {% break %}
+          {% endif %}
+          <tr>
+              <td class="notime"></td>
+              <td class="session-talk1">
+                  {% if paper1 != nil %}
+                  <span class="paper-title">{{paper1.Title}}
+                      (<span class="paper-type">{{paper1.Track}}</span>)</span><br/>
+                  <span class="paper-author">{{paper1.Authors}}</span>
+                  {% endif %}
+              </td>
+              <td class="session-talk2">
+                  {% if paper2 != nil %}
+                  <span class="paper-title">{{paper2.Title}}
+                      (<span class="paper-type">{{paper2.Track}}</span>)</span><br/>
+                  <span class="paper-author">{{paper2.Authors}}</span>
+                  {% endif %}
+              </td>
+          </tr>
+          {% endfor %}
+        {% endif %}
+        {% endfor %}
+        </table>
+
+
+      </section>
+
+    </div>
+  </div>
+</div>
+
+
+<script>
+function updateTimezone() {
+  var timezone = parseInt($('#timezone-selector').val());
+  for (let i = 6; i <= 24; i++) {
+    var time = (i + timezone) % 24;
+    $('#slot-' + i).text(time);
+  }
+}
+</script>

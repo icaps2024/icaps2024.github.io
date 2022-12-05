@@ -1,0 +1,34 @@
+---
+- nick: tut1
+  name: Hands on Introduction to CALDERA, a Red-Blue Cyber Operations Automation Platform
+  team: Corinne Magone, Ron Alford, Michael Kouremetis
+  length: half-day
+  youtube: LydxQANFr5o
+  ready: true
+
+- nick: tut2
+  name: "Planning & Scheduling and Quantum Computing: what can they do for each other?"
+  team: Marco Baioletti, Angelo Oddi, Riccardo Rasconi
+  length: half-day
+  youtube: eGC-aJw9J9Q
+  ready: true
+
+- nick: tut3
+  name: "(<span style=\"color:red\">cancelled</span>) Efficient Neural-Symbolic Reasoning Via Reinforcement Learning"
+  team: Bo Liu, Daoming Lyu, Jianshu Chen, Akshat Kumar, Jiajing Ling
+  length: half-day
+  ready: true
+
+- nick: tut4
+  name: "Representation learning for acting and planning: A top-down approach"
+  team: Blai Bonet and Hector Geffner
+  length: quarter-day
+  youtube: EZ2bb-ZiVsE
+  ready: true
+
+- nick: tut5
+  name: CraftBots (co-run with IntEx Workshop)
+  team: Michael Cashmore and Liudvikas Nemiro
+  length: quarter-day
+  youtube: 1nkpy4xmUL8
+  ready: true

@@ -1,0 +1,78 @@
+---
+title: paper-154
+layout: page
+---
+<head>
+<style>
+div1 {
+  background-color: lightgrey;
+  width: 30px;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 1px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}.button2 {
+  background-color: white;
+  color: black; 
+  border: 2px solid red;
+}
+.button2:hover {
+  background-color: red;
+  color: white;
+}
+</style>
+</head>
+<div class='container'>
+  <div class='row'>
+      <div class='3u 12u(mobile)'>
+      <section>
+       <button class='button button2' onclick=" window.open('https://ojs.aaai.org/index.php/ICAPS/article/view/19785/19544','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> PDF</button>
+<br><br><h3 class='top'>Talk Sessions: </h3>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#7a','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 21, Session 7a</button>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#22a','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 23, Session 22a</button>
+<br><br><h3 class='top'>Poster Sessions: </h3>
+<button class='button button2' onclick=" window.open('http://icaps22.icaps-conference.org/posters/ICAPS 2022 - POSTER - TP154.pdf','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> Poster</button><br><br>
+<div1> June 21, Booth 27</div1> <br><br>
+<div1> June 23, Booth 22</div1> <br><br>
+</section>
+ </div>
+<div class='9u 12u(mobile)'>
+    <section>
+      <header>
+        <h1 class='top'>Task-Guided Inverse Reinforcement Learning Under Partial Information</h1>
+        <h3>Franck Djeumou, Murat Cubuktepe, Craig Lennon and Ufuk Topcu</h3>
+      </header>
+<b>Abstract:</b> We study the problem of inverse reinforcement learning (IRL), where the learning agent recovers a reward function using expert demonstrations. Most of the existing IRL techniques make the often unrealistic assumption that the agent has access to full information about the environment. We remove this assumption by developing an algorithm for IRL in partially observable Markov decision processes (POMDPs). The algorithm addresses several limitations of existing techniques that do not take the information asymmetry between the expert and the learner into account. First, it adopts causal entropy as the measure of the likelihood of the expert demonstrations as opposed to entropy in most existing IRL techniques, and avoids a common source of algorithmic complexity. Second, it incorporates task specifications expressed in temporal logic into IRL. Such specifications may be interpreted as side information available to the learner a priori in addition to the demonstrations and may reduce the information asymmetry. Nevertheless, the resulting formulation is still nonconvex due to the intrinsic nonconvexity of the so-called forward problem, i.e., computing an optimal policy given a reward function, in POMDPs. We address this nonconvexity through sequential convex programming and introduce several extensions to solve the forward problem in a scalable manner.
+This scalability allows computing policies that incorporate memory at the expense of added computational cost yet also outperform memoryless policies. We demonstrate that, even with severely limited data, the algorithm learns reward functions and policies that satisfy the task and induce a similar behavior to the expert by leveraging the side information and incorporating memory into the policy.<br><br>
+<div id='presentation-embed-38982892'></div>
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<script>
+embed = new SlidesLiveEmbed('presentation-embed-38982892', { 
+ presentationId: '38982892',
+ autoPlay: false,
+ verticalEnabled: true, 
+   });
+</script>
+<h4><p style='color:red'><sup>*</sup>This password protected talk video will only be available after it was presented at the conference.</p></h4></section>
+  </div>
+  </div>
+</div>

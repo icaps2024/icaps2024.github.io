@@ -1,0 +1,12 @@
+
+
+<section>
+  <header>
+    <h3>Tutorials</h3>
+  </header>
+  <ul class="check-list">
+    {% for tutorial in site.data.tutorials %}
+    <li><a href="/tutorials/{{ tutorial.nick }}">{{ tutorial.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>

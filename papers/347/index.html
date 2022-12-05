@@ -1,0 +1,79 @@
+---
+title: paper-347
+layout: page
+---
+<head>
+<style>
+div1 {
+  background-color: lightgrey;
+  width: 30px;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 1px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}.button2 {
+  background-color: white;
+  color: black; 
+  border: 2px solid red;
+}
+.button2:hover {
+  background-color: red;
+  color: white;
+}
+</style>
+</head>
+<div class='container'>
+  <div class='row'>
+      <div class='3u 12u(mobile)'>
+      <section>
+       <button class='button button2' onclick=" window.open('https://ojs.aaai.org/index.php/ICAPS/article/view/19833/19592','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> PDF</button>
+<br><br><h3 class='top'>Talk Sessions: </h3>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#17a','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 22, Session 17a</button>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#31b','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 24, Session 31b</button>
+<br><br><h3 class='top'>Poster Sessions: </h3>
+<button class='button button2' onclick=" window.open('http://icaps22.icaps-conference.org/posters/ICAPS_22_Paper_IND_347_Levinson.pdf','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> Poster</button><br><br>
+<div1> June 22, Booth 47</div1> <br><br>
+<div1> June 24, Booth 31</div1> <br><br>
+</section>
+ </div>
+<div class='9u 12u(mobile)'>
+    <section>
+      <header>
+        <h1 class='top'>Planning Satellite Swarm Measurements for Earth Science Models: Comparing Constraint Processing and MILP methods</h1>
+        <h3>Richard Levinson, Samantha Niemoeller, Sreeja Nag and Vinay Ravindra</h3>
+      </header>
+<b>Abstract:</b> We compare two planner solutions for a challenging Earth science application to plan coordinated measurements (observations) for a constellation of satellites. This problem is combinatorially explosive, involving many degrees of freedom for planner choices. Each satellite carries two different sensors and is maneuverable to 61 pointing angle options.  The sensors collect data to update the predictions made by a high-fidelity global soil moisture prediction model. Soil moisture is an important geophysical variable whose knowledge is used in applications such as crop health monitoring and predictions of floods, droughts, and fires.
+	The global soil-moisture model produces soil-moisture predictions with associated prediction errors over the globe represented by a grid of 1.67 million Ground Positions (GPs). The prediction error varies over space and time and can change drastically with events like rain/fire. The planner's goal is to select measurements which reduce prediction errors to improve future predictions. This is done by targeting high-quality observations at locations of high prediction-error. Observations can be made in multiple ways, such as by using one or more instruments or different pointing angles; the planner seeks to select the way with the least measurement-error (higher observation quality).
+	In this paper we compare two planning approaches to this problem: Dynamic Constraint Processing (DCP) and Mixed Integer Linear Programming (MILP). We match inputs and metrics for both DCP and MILP algorithms to enable a direct apples-to-apples comparison. DCP uses domain heuristics to find solutions within a reasonable time for our application but cannot be proven optimal, while the MILP produces provably optimal solutions. We demonstrate and discuss the trades between DCP flexibility and performance vs. MILP's promise of provable optimality.<br><br>
+<div id='presentation-embed-38982881'></div>
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<script>
+embed = new SlidesLiveEmbed('presentation-embed-38982881', { 
+ presentationId: '38982881',
+ autoPlay: false,
+ verticalEnabled: true, 
+   });
+</script>
+<h4><p style='color:red'><sup>*</sup>This password protected talk video will only be available after it was presented at the conference.</p></h4></section>
+  </div>
+  </div>
+</div>

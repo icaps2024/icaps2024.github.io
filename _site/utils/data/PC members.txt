@@ -1,0 +1,185 @@
+Mouaddib, Abdel-Illah, GREYC universit de Caen
+Vaneet, Aggarwal, Purdue University
+Alexandre, Albore, Onera
+Vidal, Alcázar, Riken AIP
+Ron, Alford, MITRE
+Ankit, Anand, DeepMind
+James, Arambam, National University of Singapore
+Siddharth, Aravindan, NUS
+Masataro, Asai, IBM
+Laura, Barbulescu, Carnegie Mellon University
+Leliane N., Barros, University of São Paulo
+Gregor, Behnke, University of Freiburg
+J., Benton, NASA
+Arthur, Bit-Monnot, LAAS-CNRS
+Mark, Boddy, Adventium Labs
+Kyle E. C., Booth, University of Toronto
+Daniel, Borrajo, JPMorgan & Chase AI Research
+Martim, Brandao, King's College London
+Thiago, Bueno, USP
+Olivier, Buffet, INRIA / LORIA
+Vadim, Bulitko, University of Alberta
+Christina, Burt, Fortescue Metals Group
+Panpan, Cai, NUS
+Alberto, Camacho, University of Toronto
+Gerard, Canal, King's College London
+Michael, Cashmore, University of Strathclyde
+Isabel, Cenamor, Xplain Iberica AG
+Iadine, Chades, CSIRO
+Shih-Fen, Cheng, Singapore Management University
+Lukas, Chrpa, Czech Technical University in Prague
+Andre Augusto, Cire, University of Toronto
+Gabriella, Cortellessa, CNR-ISTC, National Research Council of Italy
+Frits, de Nijs, Monash University
+Lavindra, de Silva, University of Cambridge
+Emir, Demirović, Delft University of Technology
+Minh, Do, NASA
+Stefan, Edelkamp, CTU Prague
+Rebecca, Eifler, Saarland University
+Salomé, Eriksson, University of Basel
+Ariel, Felner, Ben-Gurion University
+Patrick, Ferber, University of Basel
+Alan, Fern, Oregon State University
+Fernando, Fernandez, Universidad Carlos III de Madrid
+Maria, Fox, British Antarctic Survey
+Ramon, Fraga Pereira, Sapienza University of Rome
+Santiago, Franco, Royal Holloway University of London
+Jeremy, Frank, NASA
+Simone, Fratini, European Space Agency - ESA/ESOC
+Xiuju, Fu, IHPC
+Alex, Fukunaga, Tokyo Institute of Technology
+Daniel, Furelos-Blanco, Imperial College London
+Angel, Garcia-Olaya, Departamento de Informatica. Universidad Carlos III de Madrid
+Sankalp, Garg, Indian Institute of Technology Delhi
+Hector, Geffner, ICREA & Universitat Pompeu Fabra
+Florian, Geißer, Australian National University
+Mark, Giuliano, Space Telescope Science Institute
+Robert, Givan, Purdue University ECE
+Daniel, Gnad, Saarland University
+Robert P., Goldman, SIFT, LLC
+Matthew, Gombolay, Massachusetts Institute of Technology
+Vicenç, Gómez, Universitat Pompeu Fabra
+Ze, Gong, Arizona State University
+Alban, Grastien, The Australian National University, Australia
+Charles, Gretton, Australian National University
+Sachin, Grover, Arizona State University
+Christophe, Guettier, SAFRAN
+Daniel, Harabor, Monash University
+Keyang, He, University of Georgia
+Emmanuel, Hebrard, LAAS, CNRS
+Malte, Helmert, University of Basel
+Carlos, Hernández Ulloa, Universidad Andrés Bello
+Daniel, Höller, Saarland University, Saarland Informatics Campus
+Jesse, Hostetler, SRI International
+Shuyue, Hu, National University of Singapore
+Felix, Ingrand, LAAS/CNRS
+Luca, Iocchi, Sapienza University of Rome
+Murugeswari, Issakkimuthu, Oregon State University
+Sergio, Jimenez Celorrio, Universitat Politècnica de València
+Mark, Johnston, JPL/California Inst. of Technology
+Sammie, Katt, Northeastern University
+Thomas, Keller, University of Basel
+Sarah, Keren, Technion
+Emil, Keyder, INRIA
+Scott, Kiesel, Amazon Robotics
+Philip, Kilby, Data61 and the Australian National University
+Joseph, Kim, Invitae
+Akihiro, Kishimoto, IBM Research, Tokyo
+Russell, Knight, JPL
+Uwe, Köckemann, Örebro University
+Antonín, Komenda, Department of Computer Science, Faculty of Electrical Engineering,Czech Technical University in Prague
+Anagha, Kulkarni, Invitae
+T. K. Satish, Kumar, University of Southern California
+Bruno, Lacerda, University of Oxford
+Matteo, Leonetti, King's College London
+Jiaoyang, Li, University of Southern California
+Carlos, Linares Lopez, Universidad Carlos III de Madrid
+Alan, Lindsay, Heriot-Watt University
+Jiajing, Ling, Singapore Management Univerisity
+Michele, Lombardi, DISI, University of Bologna
+Siow Meng, Low, Singapore Management University
+Bryan Kian Hsiang, Low, National University of Singapore
+Meghna, Lowalekar, Swiggy, Bangalore, India
+Hang, Ma, Simon Fraser University
+Daniele, Magazzeni, J.P. Morgan AI Research
+Adrien, Maillard, Jet Propulsion Laboratory
+Peta, Masters, The University of Melbourne
+Robert, Mattmüller, University of Freiburg
+Muhammad Rizki Aulia Rahman, Maulana, National University of Singapore
+Lee, Mccluskey, University of Huddersfield
+Francisco S., Melo, Instituto Superior Tecnico/INESC-ID
+Felipe, Meneguzzi, University of Aberdeen
+Fabio, Mercorio, University of Milano Bicocca
+Andrea, Micheli, Fondazione Bruno Kessler
+Tim, Miller, The University of Melbourne
+Martin, Mueller, University of Alberta
+Nysret, Musliu, TU Wien
+Karen, Myers, SRI International
+Grigory, Neustroev, Delft University of Technology
+Tim, Niemueller, X, The Moonshot Factory
+Angelo, Oddi, ISTC-CNR, Italian National Research Council
+Eva, Onaindia, Universitat Politècnica de València
+Simon, Parkinson, University of Huddersfield
+Sunandita, Patra, Department of Computer Science, University of Maryland, College Park
+Fabio, Patrizi, Sapienza University of Rome
+Damien, Pellier, Laboratoire d'Informatique de Grenoble
+Francesco, Percassi, University of Huddersfield
+Claudia, Pérez D'Arpino, NVIDIA
+Ron, Petrick, Heriot-Watt University
+Marek, Petrik, University of New Hampshire
+Florian, Pommerening, University of Basel
+Caroline, Ponzoni Carvalho Chanel, ISAE
+Cédric, Pralet, ONERA Toulouse
+Kanna, Rajan, SIFT LLC & Univ. of Porto, Portugal
+Patricia, Riddle, The University of Auckland
+Federico, Rossi, NASA
+Marco, Roveri, Department of Information Engineering and Computer Science -DISI
+Hana, Rudová, Masaryk University
+Wheeler, Ruml, University of New Hampshire
+Alessandro, Saetti, University of Brescia
+Sandhya, Saisubramanian, Oregon State University
+Oren, Salzman, Technion
+Buser, Say, Monash University
+Enrico, Scala, Universita' di Brescia
+Laura, Sebastia, Universitat Politècnica de València
+Javier, Segovia-Aguas, Universitat Pompeu Fabra
+Jendrik, Seipp, Linköping University
+Ivan, Serina, University of Brescia
+Alexander, Shleyfman, Technion
+Silvan, Sievers, University of Basel
+Thiago D., Simão, Radboud University
+David, Smith, Independent
+Stephen, Smith, Carnegie Mellon University
+Shirin, Sohrabi, IBM
+Tran Cao, Son, New Mexico State University
+Sarath, Sreedharan, Arizona State University
+Lorenzo, Steccanella, Universitat Pompeu Fabra
+Tiago, Stegun, Nasa
+Marcel, Steinmetz, Saarland University
+Roni, Stern, Ben Gurion University of the Negev
+Sabine, Storandt, University of Konstanz
+Nathan, Sturtevant, University of Alberta
+Premysl, Sucha, Department of Control Engineering, Czech Technical University
+Gita, Sukthankar, University of Central Florida
+Pavel, Surynek, Czech Technical University in Prague, Faculty of Information Technology
+Prasad, Tadepalli, Oregon State University
+Ayal, Taitler, Technion Israel Institute of Technology
+Ufuk, Topcu, Uni of Texas at Austin
+Álvaro, Torralba, Aalborg University
+Paolo, Traverso, FBK
+Felipe, Trevizan, Australian National University (ANU)
+Alessandro, Umbrico, National Research Council of Italy (CNR-ISTC)
+Vaibhav V, Unhelkar, Rice University
+Mauro, Vallati, University of Huddersfield
+Martijn, Van Otterlo, Open University (The Netherlands)
+Tiago, Vaquero, NASA Jet Propulsion Laboratory, Caltech
+Ramiro, Varela, University of Oviedo
+Stylianos Loukas, Vasileiou, Washington University in St Louis
+Pulkit, Verma, Arizona State University
+Petr, Vilím, IBM Czech
+Christabel, Wayllace, Washington University in St. Louis
+Feng, Wu, University of Sicence and Technology of China
+Shan, Xue, Macquarie University
+Konstantin, Yakovlev, Federal Research Center "Computer Science and Control" of Russian Academy of Sciencies
+Neil, Yorke-Smith, Delft University of Technology
+Peng, Yu, Mobi Systems

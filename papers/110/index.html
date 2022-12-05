@@ -1,0 +1,94 @@
+---
+title: paper-110
+layout: page
+---
+<head>
+<style>
+div1 {
+  background-color: lightgrey;
+  width: 30px;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 1px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}.button2 {
+  background-color: white;
+  color: black; 
+  border: 2px solid red;
+}
+.button2:hover {
+  background-color: red;
+  color: white;
+}
+</style>
+</head>
+<div class='container'>
+  <div class='row'>
+      <div class='3u 12u(mobile)'>
+      <section>
+       <button class='button button2' onclick=" window.open('https://ojs.aaai.org/index.php/ICAPS/article/view/19845/19604','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> PDF</button>
+<br><br><h3 class='top'>Talk Sessions: </h3>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#11a','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 22, Session 11a</button>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#30b','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 24, Session 30b</button>
+<br><br><h3 class='top'>Poster Sessions: </h3>
+<button class='button button2' onclick=" window.open('http://icaps22.icaps-conference.org/posters/ICAPS 2022 - Poster - TP110 - Neural Network Heuristics.pdf','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> Poster</button><br><br>
+<div1> June 22, Booth 12</div1> <br><br>
+<div1> June 24, Booth 12</div1> <br><br>
+</section>
+ </div>
+<div class='9u 12u(mobile)'>
+    <section>
+      <header>
+        <h1 class='top'>Neural Network Heuristic Functions for Classical Planning: Bootstrapping and Comparison to Other Methods</h1>
+        <h3>Patrick Ferber, Florian Geißer, Felipe Trevizan, Malte Helmert and Joerg Hoffmann</h3>
+      </header>
+<b>Abstract:</b> How can we train neural network (NN) heuristic functions for classical
+planning, using only states as the NN input? Prior work addressed this
+question by (a) per-instance imitation learning and/or (b) per-domain
+learning. The former limits the approach to instances small enough for
+training data generation, the latter to domains where the necessary
+knowledge generalizes across instances.  Here we explore three methods
+for (a) that make training data generation scalable through
+bootstrapping and approximate value iteration. In particular, we
+introduce a new bootstrapping variant that estimates search effort
+instead of goal distance, which as we show converges to the perfect
+heuristic under idealized circumstances. We empirically compare these
+methods to (a) and (b), aligning three different NN heuristic function
+learning architectures for cross-comparison in an experiment of
+unprecedented breadth in this context.  Key lessons are that our
+methods and imitation learning are highly complementary; that
+per-instance learning often yields stronger heuristics than per-domain
+learning; and the LAMA planner is still dominant but our methods
+outperform it in one benchmark domain.<br><br>
+<div id='presentation-embed-38982841'></div>
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<script>
+embed = new SlidesLiveEmbed('presentation-embed-38982841', { 
+ presentationId: '38982841',
+ autoPlay: false,
+ verticalEnabled: true, 
+   });
+</script>
+<h4><p style='color:red'><sup>*</sup>This password protected talk video will only be available after it was presented at the conference.</p></h4></section>
+  </div>
+  </div>
+</div>

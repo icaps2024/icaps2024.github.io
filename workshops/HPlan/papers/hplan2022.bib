@@ -1,0 +1,145 @@
+#
+# HPlan 2022
+#
+
+@Proceedings{HPlan2022proceedings,
+  editor          = {Pascal Bercher and Jane Jean Kiam and Arthur Bit-Monnot and Ron Alford},
+  title           = {Proceedings of the 5th ICAPS Workshop on Hierarchical Planning (HPlan 2022)},
+  year            = {2022},
+  url_website     = {http://hplan2022.hierarchical-task.net},
+  url_proceedings = {https://icaps22.icaps-conference.org/workshops/HPlan/papers/HPlanProceedings-2022.pdf}
+}
+
+@InProceedings{HPlan2022paper-01,
+  author           = {Maxence Grand and Damien Pellier and Humbert Fiorino},
+  title            = {An Accurate HDDL Domain Learning Algorithm from Partial and Noisy Observations},
+  booktitle        = {Proceedings of the 5th ICAPS Workshop on Hierarchical Planning (HPlan 2022)},
+  year             = {2022},
+  pages            = {1--9},
+  abstract         = {The Hierarchical Task Network (HTN) formalism is very expressive and used to express a wide variety of planning problems. In contrast to the classical STRIPS formalism in which only the action model needs to be specified, the HTN formalism requires to specify, in addition, the tasks of the problem and their decomposition into subtasks, called HTN methods. For this reason, hand-encoding HTN problems is considered more difficult and more error-prone by experts than classical planning problem. To tackle this problem, we propose a new approach (HierAMLSI) based on grammar induction to acquire HTN planning domain knowledge, by learning action models and HTN methods with their preconditions. Unlike other approaches, HierAMLSI is able to learn both actions and methods with noisy and partial inputs observation with a high level or accuracy.},
+  url_paper        = {https://icaps22.icaps-conference.org/workshops/HPlan/papers/paper-01.pdf},
+  url_presentation = {https://youtu.be/Znp95XfIipk}
+}
+
+@InProceedings{HPlan2022paper-02,
+  author           = {Nicolas Cavrel and Damien Pellier and Humbert Fiorino},
+  title            = {An Efficient HTN to STRIPS Encoding for Concurrent Plans},
+  booktitle        = {Proceedings of the 5th ICAPS Workshop on Hierarchical Planning (HPlan 2022)},
+  year             = {2022},
+  pages            = {10--18},
+  abstract         = {The Hierarchical Task Network (HTN) formalism is used to express a wide variety of planning problems in terms of decompositions of tasks into subtaks. Many techniques have been proposed to solve such hierarchical planning problems. A particular technique is to encode hierarchical planning problems as classical STRIPS planning problems. One advantage of this technique is to benefit directly from the constant improvements made by STRIPS planners. However, there are still few effective and expressive encodings. In this paper, we present a new HTN to STRIPS encoding allowing to generate concurrent plans. We show experimentally that this encoding outperforms previous approaches on hierarchical IPC benchmarks.},
+  url_paper        = {https://icaps22.icaps-conference.org/workshops/HPlan/papers/paper-02.pdf},
+  url_presentation = {https://youtu.be/Y5pbjClvnFU}
+}
+
+@InProceedings{HPlan2022paper-03,
+  author           = {Roland Godet and Arthur Bit-Monnot},
+  title            = {Chronicles for Representing Hierarchical Planning Problems with Time},
+  booktitle        = {Proceedings of the 5th ICAPS Workshop on Hierarchical Planning (HPlan 2022)},
+  year             = {2022},
+  pages            = {19--23},
+  abstract         = {In temporal planning, chronicles can be used to represent the predictive model of durative actions. Unlike the classical state-oriented representation, the usage of chronicles allows a rich temporal qualification of conditions and effects, beyond the mere start and end times of an action. In this paper we propose an extension of the standard chronicle representation to support hierarchical problems. In particular, we show that the addition of temporally qualified subtasks to chronicles makes them suitable to represent not only primitive actions but also HTN methods. We show how the set of solutions to a chronicle-based hierarchical problem can be quite naturally represented as a Constraint Satisfaction Problem (CSP). To associate semantics to this extended chronicle representation, we propose a set of rules that must hold for any solution to the hierarchical problem, specified as constraints on the associated CSP.},
+  url_paper        = {https://icaps22.icaps-conference.org/workshops/HPlan/papers/paper-03.pdf},
+  url_presentation = {https://youtu.be/J5lCAip3s0w}
+}
+
+@InProceedings{HPlan2022paper-04,
+  author           = {Songtuan Lin and Gregor Behnke and Pascal Bercher},
+  title            = {Exploiting Solution Order Graphs and Path Decomposition Trees for More Efficient HTN Plan Verification via SAT Solving},
+  booktitle        = {Proceedings of the 5th ICAPS Workshop on Hierarchical Planning (HPlan 2022)},
+  year             = {2022},
+  pages            = {24--28},
+  abstract         = {The task of plan verification is to decide whether a given plan is a solution to a planning problem. In this paper, we study the plan verification problem in the context of Hierarchical Task Network (HTN) planning. Concretely, we will develop a new SAT-based approach via exploiting the data structures solution order graphs and path decomposition trees employed by the state-of-the-art SAT-based HTN planner which transforms an HTN plan verification problem into a SAT formula. Additionally, for the purpose of completeness, we will also reimplement the old SAT-based plan verifier within an outdated planning system called PANDA3 and integrate it into the new version called PANDA-pi.},
+  url_paper        = {https://icaps22.icaps-conference.org/workshops/HPlan/papers/paper-04.pdf},
+  url_presentation = {https://youtu.be/DbDTuY7dOxM}
+}
+
+@InProceedings{HPlan2022paper-05,
+  author           = {Morgan Fine-Morris and Michael W. Floyd and Bryan Auslander and Greg Pennisi and Kalyan Gupta and Mark Roberts and Jeff Heflin and Héctor Muñoz-Avila},
+  title            = {Learning Decomposition Methods with Numeric Landmarks and Numeric Preconditions},
+  booktitle        = {Proceedings of the 5th ICAPS Workshop on Hierarchical Planning (HPlan 2022)},
+  year             = {2022},
+  pages            = {29--37},
+  abstract         = {We describe an HTN method-learning system, which we call
+T2N, that learns hierarchical structure from plan traces in domains with numeric effects, where some subgoals are numeric. We investigate how different methods of preprocessing training data can impact the effectiveness of the learned methods. We test the learned methods by solving a set of 30 test problems in a simple numeric crafting domain based on the videogame Minecraft. Our results indicate that we can learn functional methods for domains with these characteristics and suggest that different preprocessing techniques lead to method sets with different strengths and weaknesses, with no preprocessing technique superior across all domain tasks.},
+  url_paper        = {https://icaps22.icaps-conference.org/workshops/HPlan/papers/paper-05.pdf},
+  url_presentation = {https://youtu.be/NhDfL7YC6pQ}
+}
+
+@InProceedings{HPlan2022paper-06,
+  author           = {Philippe Hérail and Arthur Bit-Monnot},
+  title            = {Learning Operational Models from Demonstrations: Parameterization and Model Quality Evaluation},
+  booktitle        = {Proceedings of the 5th ICAPS Workshop on Hierarchical Planning (HPlan 2022)},
+  year             = {2022},
+  pages            = {38--46},
+  abstract         = {When acting in non-deterministic environments, autonomous agents must balance between long-term, complex goals with unpredictable events and reactive behavior. In this context, hierarchical operational models are attractive in that they allow the execution of complex behavior either in a purely reactive fashion or guided by a planning process. Just like for HTN models with which they share most characteristics, one key bottleneck in the exploitation of operational models is their acquisition. In this paper, we introduce an algorithm for learning hierarchical operational models from a set of demonstrations. Given an initial vocabulary of tasks and some demonstrations of how they could be achieved, we present how each task can be associated to a set of methods capturing the operational knowledge of how it can be achieved. We present the structure of the learned models, the algorithm used to learn them as well as a preliminary evaluation of this algorithm.},
+  url_paper        = {https://icaps22.icaps-conference.org/workshops/HPlan/papers/paper-06.pdf},
+  url_presentation = {https://youtu.be/IX_PIuqfFqE}
+}
+
+@InProceedings{HPlan2022paper-07,
+  author           = {Conny Olz and Pascal Bercher},
+  title            = {On the Efficient Inference of Preconditions and Effects of Compound Tasks in
+Partially Ordered HTN Planning Domains},
+  booktitle        = {Proceedings of the 5th ICAPS Workshop on Hierarchical Planning (HPlan 2022)},
+  year             = {2022},
+  pages            = {47--51},
+  abstract         = {Recently, preconditions and effects of compound tasks based on their possible refinements have been introduced together with an efficient inference procedure to compute a subset of them. However, they were restricted to total-order HTN planning domains. In this paper we generalize the definitions and algorithm to the scenario of partially ordered domains.},
+  url_paper        = {https://icaps22.icaps-conference.org/workshops/HPlan/papers/paper-07.pdf},
+  url_presentation = {https://youtu.be/QsQsXBYu0yI}
+}
+
+@InProceedings{HPlan2022paper-08,
+  author           = {Songtuan Lin and Gregor Behnke and Simona Ondrčková and Roman Barták and Pascal Bercher},
+  title            = {On Total-Order HTN Plan Verification with Method Preconditions -- An Extension of the CYK Parsing Algorithm},
+  booktitle        = {Proceedings of the 5th ICAPS Workshop on Hierarchical Planning (HPlan 2022)},
+  year             = {2022},
+  pages            = {52--58},
+  abstract         = {In this paper, we consider the plan verification problem for totally ordered (TO) HTN planning. The problem is proved to be solvable in polynomial time by recognizing its connection to the membership decision problem for context-free grammars. Currently, most HTN plan verification approaches do not have special treatments for the TO configuration, and the only one features such an optimization still relies on an exhaustive search. Hence, we will develop a new TOHTN plan verification approach in this paper by extending the standard CYK parsing algorithm which acts as the best decision procedure in general.},
+  url_paper        = {https://icaps22.icaps-conference.org/workshops/HPlan/papers/paper-08.pdf},
+  url_presentation = {https://youtu.be/AJqmbG9Bs2M}
+}
+
+@InProceedings{HPlan2022paper-09,
+  author           = {Viraj Parimi and Zachary B. Rubinstein and Stephen F. Smith},
+  title            = {T-HTN: Timeline Based HTN Planning for Multiple Robots},
+  booktitle        = {Proceedings of the 5th ICAPS Workshop on Hierarchical Planning (HPlan 2022)},
+  year             = {2022},
+  pages            = {59--67},
+  abstract         = {Effective coordinated actions by a team of robots operating in close proximity to one another is an important requirement in many emerging applications, ranging from warehousing and material movement to the conduct of autonomous housekeeping and maintenance of deep space habitats during unmanned periods. Yet, such multi-robot planning problems remain a significant challenge for contemporary planning technologies, due to several complicating factors: goals must be assigned to robots and accomplished over time in the presence of complex temporal and spatial constraints in a manner that optimizes overall team performance, attention must be given to the durational uncertainty inherent in robot task execution, and planning must be responsive to changing and unexpected execution circumstances. In this paper, we present T-HTN, a novel planner that attempts to overcome this challenge by coupling the structure and efficiency of Hierarchical Task Network (HTN) models with the flexible scheduling infrastructure of timeline-based planning systems. We present initial results on a simple set of multi-robot problems that show the potential of T-HTN in comparison to a state-of-the-art PDDL-style temporal planner.},
+  url_paper        = {https://icaps22.icaps-conference.org/workshops/HPlan/papers/paper-09.pdf},
+  url_presentation = {https://youtu.be/eGNyj5lOrXY}
+}
+
+@InProceedings{HPlan2022paper-10,
+  author           = {Ruoxi Li and Mark Roberts and Morgan Fine-Morris and Dana Nau},
+  title            = {Teaching an HTN Learner},
+  booktitle        = {Proceedings of the 5th ICAPS Workshop on Hierarchical Planning (HPlan 2022)},
+  year             = {2022},
+  pages            = {68--72},
+  abstract         = {We describe Teachable-HTN-Maker, a modified version of the well-known HTN-Maker algorithm that learns Hierarchical Task Network (HTN) methods. Instead of learning methods from all subsequences of a solution plan as HTN-Maker does, Teachable-HTN-Maker learns from a curriculum consisting of examples that are presented in a meaningful order. We compare Teachable-HTN-Maker against HTN-Maker in two planning domains, and observe that it learns fewer methods and better ones.},
+  url_paper        = {https://icaps22.icaps-conference.org/workshops/HPlan/papers/paper-10.pdf},
+  url_presentation = {https://youtu.be/6CdCTGvBwvM}
+}
+
+@InProceedings{HPlan2022paper-11,
+  author           = {Michael Staud},
+  title            = {Urban Modeling via Hierarchical Task Network Planning},
+  booktitle        = {Proceedings of the 5th ICAPS Workshop on Hierarchical Planning (HPlan 2022)},
+  year             = {2022},
+  pages            = {73--77},
+  abstract         = {In this paper we present a new method for city modeling based on hierarchical task network planning. The planner creates actions that are executed in a city simulation. These actions generate step by step a city model within the simulation. The advantage of this approach is that it takes into account that real cities are not designed on a drawing board, but have a history of development. By simulating this development, economic aspects can be taken into account. The result is a much more realistic urban model. An urban simulation is an extremely complex planning domain for a planner. Therefore, we have developed a new domain-independent hierarchical task network planning algorithm that divides the planning problem into smaller planning problems. Our planning algorithm is sound and complete. We give preliminary results on its performance.},
+  url_paper        = {https://icaps22.icaps-conference.org/workshops/HPlan/papers/paper-11.pdf},
+  url_presentation = {https://youtu.be/xK8_c2-SFAw}
+}
+
+@InProceedings{HPlan2022paper-12,
+  author           = {Tobias Schwartz and Michael Sioutis and Diedrich Wolter},
+  title            = {Towards Hierarchical Task Network Planning as Constraint Satisfaction Problem},
+  booktitle        = {Proceedings of the 5th ICAPS Workshop on Hierarchical Planning (HPlan 2022)},
+  year             = {2022},
+  pages            = {78--82},
+  abstract         = {In recent years, propositional logic encodings for HTN planning have seen many improvements and resulted in competitive planners. Modeling all kinds of features and constraints imposed by the task hierarchy, however, is very challenging in propositional logic, and has recently led to including preprocessing steps before creating the SAT formulas. Instead of using propositional logic, classical planning problems have previously been encoded as constraint satisfaction problems (CSPs), which are more expressive. Indeed, CSPs allow a more natural and convenient way of representing all constraints of the task hierarchy, yet only little work on using constraint solving methods in HTN planning exist. Hence, in this paper, we outline first ideas for encoding an HTN planning problem into a single CSP. Our motivation lies in obtaining constraint networks for HTN planning that we can solve with state-of-the-art solvers.},
+  url_paper        = {https://icaps22.icaps-conference.org/workshops/HPlan/papers/paper-12.pdf},
+  url_presentation = {https://youtu.be/X-OTsayX-ck}
+}

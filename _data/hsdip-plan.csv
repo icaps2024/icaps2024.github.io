@@ -1,0 +1,21 @@
+time,type,name,authors
+June 16: 12:00-20:00,day
+12:00-12:10,break,<h4>Welcome: Opening Remarks</h4>
+12:10-13:10,break,"<h4>Session 1</h4>",
+,,<a href=https://openreview.net/forum?id=c2-QShxGZt>A Study of the Power of Heuristic-based Pruning via SAT Planning</a>,"Christopher Johnson, Pascal Tobias Bercher, Charles Gretton"
+,,<a href=https://openreview.net/forum?id=jDOMWuV4VNH>Symmetry Detection and Breaking in Cost-Optimal Numeric Planning</a>,"Alexander Shleyfman, Ryo Kuroiwa, Chris Beck"
+,,<a href=https://openreview.net/forum?id=ThtUzc9LHK>New Complexity Results for Structurally Restricted Numeric Planning</a>,"Alexander Shleyfman, Daniel Gnad, Peter Jonsson"
+13:10-13:30,break, Coffee Break
+13:30-14:50,break,"<h4>Session 2</h4>",
+,,<a href=https://openreview.net/forum?id=8lb-ifAeeZw>A Comparison of Abstraction Heuristics for Rubik's Cube</a>,"Clemens Büchner, Patrick Ferber,  Jendrik Seipp,  Malte Helmert"
+,,<a href=https://openreview.net/forum?id=GQuB80Gz8yq>Mechanically Proving Guarantees of Generalized Heuristics: First Results and Ongoing Work</a>,"Mohammad Abdulaziz, Florian Pommerening, Augusto B. Corrêa"
+,,<a href=https://openreview.net/forum?id=LovIxPF4oBy>Optimal Planning as Constraint Optimization</a>,"Enrico Giunchiglia, Armando Taccchella"
+,,<a href=https://openreview.net/forum?id=3GNg2Lm3HUE>A Formal Model of Concurrent Planning and Execution with Action Costs</a>,"Ava Bensoussan, Solomon Eyal Shimony, Shahaf S. Shperberg, Wheeler Ruml"
+14:50-15:10,break, Coffee Break
+15:10-16:10, invited, <h4>Invited Talk: Jiaoyang Li</br>Intelligent Planning for Large-Scale Multi-Agent Coordination</h4>,"Intelligent Planning for Large-Scale Multi-Agent Coordination"
+16:10-16:30,break, Coffee Break
+16:30-17:30,break,"<h4>Session 3</h4>",
+,,<a href=https://openreview.net/forum?id=R01-1zb7EM>Additive Pattern Databases for Decoupled Search</a>,"Silvan Sievers, Daniel Gnad, Alvaro Torralba"
+,,<a href=https://openreview.net/forum?id=hYrQINQSrR>Trading Monotonicity for Cost in Beam Search</a>,"Sofia Lemons, Robert Holte, Carlos Linares López, Wheeler Ruml"
+,,<a href=https://openreview.net/forum?id=KJVVwJ4mo5>On Producing Shortest Cost-Optimal Plans</a>,"Michael Katz, Gabriele Röger, Malte Helmert"
+17:30-20:00, break, <h4>Closing Remarks & Open Discussion</h4>

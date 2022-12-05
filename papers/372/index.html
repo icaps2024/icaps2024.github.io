@@ -1,0 +1,77 @@
+---
+title: paper-372
+layout: page
+---
+<head>
+<style>
+div1 {
+  background-color: lightgrey;
+  width: 30px;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 1px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}.button2 {
+  background-color: white;
+  color: black; 
+  border: 2px solid red;
+}
+.button2:hover {
+  background-color: red;
+  color: white;
+}
+</style>
+</head>
+<div class='container'>
+  <div class='row'>
+      <div class='3u 12u(mobile)'>
+      <section>
+       <button class='button button2' onclick=" window.open('https://doi.org/10.1016/j.artint.2021.103634','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> PDF</button>
+<br><br><h3 class='top'>Talk Sessions: </h3>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#13a','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 22, Session 13a</button>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#25b','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 23, Session 25b</button>
+<br><br><h3 class='top'>Poster Sessions: </h3>
+<button class='button button2' onclick=" window.open('http://icaps22.icaps-conference.org/posters/XXX','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> Poster</button><br><br>
+<div1> June 22, Booth 54</div1> <br><br>
+<div1> June 23, Booth 53</div1> <br><br>
+</section>
+ </div>
+<div class='9u 12u(mobile)'>
+    <section>
+      <header>
+        <h1 class='top'>Knowledge-based programs as building blocks for planning</h1>
+        <h3>Jorge A. Baier and Sheila McIlraith</h3>
+      </header>
+<b>Abstract:</b> Knowledge-based programs contain both world-altering actions, which upon execution change the state of the world, and sensing actions, which upon execution change the knowledge state of the agent. Knowledge-based programming has been proposed as an alternative to planning, since programs allow solving families of planning problems. Notwithstanding, agents equipped with a variety of knowledge-based procedures can compose these procedures to achieve goals, exhibiting greater degrees of flexibility. Optimized state-of-the-art planners, unfortunately, cannot be used directly to compose programs since they require operators (not programs), defined by preconditions and effects. In this article we study how to compute preconditions and effects of knowledge-based programs in order to allow state-of-the-art planners to construct plans with knowledge-based programs as building blocks. We study the problem in the language of the situation calculus, appealing to Golog to represent our programs. To this end, we propose an offline execution semantics for Golog programs with sensing. We then propose a compilation method that transforms our action theory with programs into a new theory where programs are replaced by primitive actions. This enables us to use state-of-the-art, operator-based planning techniques to plan with programs that sense for a restricted but compelling class of problems. Finally, we discuss the applicability of these results to existing operator-based planners that support sensing and illustrate the computational advantage of planning with programs that sense via an experiment.<br><br>
+<div id='presentation-embed-38982900'></div>
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<script>
+embed = new SlidesLiveEmbed('presentation-embed-38982900', { 
+ presentationId: '38982900',
+ autoPlay: false,
+ verticalEnabled: true, 
+   });
+</script>
+<h4><p style='color:red'><sup>*</sup>This password protected talk video will only be available after it was presented at the conference.</p></h4></section>
+  </div>
+  </div>
+</div>

@@ -1,0 +1,77 @@
+---
+title: paper-366
+layout: page
+---
+<head>
+<style>
+div1 {
+  background-color: lightgrey;
+  width: 30px;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 1px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}.button2 {
+  background-color: white;
+  color: black; 
+  border: 2px solid red;
+}
+.button2:hover {
+  background-color: red;
+  color: white;
+}
+</style>
+</head>
+<div class='container'>
+  <div class='row'>
+      <div class='3u 12u(mobile)'>
+      <section>
+       <button class='button button2' onclick=" window.open('https://doi.ieeecomputersociety.org/10.1109/TAI.2022.3146797','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> PDF</button>
+<br><br><h3 class='top'>Talk Sessions: </h3>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#12a','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 22, Session 12a</button>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#28b','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 24, Session 28b</button>
+<br><br><h3 class='top'>Poster Sessions: </h3>
+<button class='button button2' onclick=" window.open('http://icaps22.icaps-conference.org/posters/ICAPS 2022 - Poster - TP366 - Efficient Temporal Piecewise-Linear Numeric Planning with Lazy Consistency Checking.pdf','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> Poster</button><br><br>
+<div1> June 22, Booth 51</div1> <br><br>
+<div1> June 24, Booth 33</div1> <br><br>
+</section>
+ </div>
+<div class='9u 12u(mobile)'>
+    <section>
+      <header>
+        <h1 class='top'>Efficient Temporal Piecewise-Linear Numeric Planning with Lazy Consistency Checking</h1>
+        <h3>Josef Bajada, Maria Fox and Derek Long</h3>
+      </header>
+<b>Abstract:</b> Temporal planning often involves numeric effects that are directly proportional to their actionÕs duration. These include continuous effects, where a numeric variable is subjected to a rate of change while the action is being executed, and discrete duration-dependent effects, where the variable is updated instantaneously but the magnitude of such change is computed from the actionÕs duration. When these effects are linear, stateÐofÐtheÐart temporal planners often make use of Linear Programming to ensure that these numeric updates are consistent with the chosen start times and durations of the planÕs actions. This is typically done for each evaluated state as part of the search process. This exhaustive approach is not scalable to solve real-world problems that require long plans, because the linear programÕs size becomes larger and slower to solve. In this work we propose techniques that minimise this overhead by computing these checks more selectively and formulating linear programs that have a smaller footprint. The effectiveness of these techniques is demonstrated on domains that use a mix of discrete and continuous effects, which is typical of real-world planning problems. The resultant planner also outperforms most state-of-the-art temporal-numeric and hybrid planners, in terms of both coverage and scalability.<br><br>
+<div id='presentation-embed-38982899'></div>
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<script>
+embed = new SlidesLiveEmbed('presentation-embed-38982899', { 
+ presentationId: '38982899',
+ autoPlay: false,
+ verticalEnabled: true, 
+   });
+</script>
+<h4><p style='color:red'><sup>*</sup>This password protected talk video will only be available after it was presented at the conference.</p></h4></section>
+  </div>
+  </div>
+</div>

@@ -1,0 +1,77 @@
+---
+title: paper-158
+layout: page
+---
+<head>
+<style>
+div1 {
+  background-color: lightgrey;
+  width: 30px;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 1px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}.button2 {
+  background-color: white;
+  color: black; 
+  border: 2px solid red;
+}
+.button2:hover {
+  background-color: red;
+  color: white;
+}
+</style>
+</head>
+<div class='container'>
+  <div class='row'>
+      <div class='3u 12u(mobile)'>
+      <section>
+       <button class='button button2' onclick=" window.open('https://ojs.aaai.org/index.php/ICAPS/article/view/19850/19609','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> PDF</button>
+<br><br><h3 class='top'>Talk Sessions: </h3>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#2a','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 21, Session 2a</button>
+<button class='button button1' onclick=" window.open('http://icaps22.icaps-conference.org/schedule#12b','_blank')"><input type='image' src='../../images/hyperlink-blue.png' width='14' height='13'>June 22, Session 12b</button>
+<br><br><h3 class='top'>Poster Sessions: </h3>
+<button class='button button2' onclick=" window.open('http://icaps22.icaps-conference.org/posters/ICAPS2022-POSTER-TP158-Learning Multi-Agent Action Coordination via Electing First-Move Agent.pdf','_blank')"><input type='image' src='../../images/hyperlink-logo.png' width='14' height='13'> Poster</button><br><br>
+<div1> June 21, Booth 28</div1> <br><br>
+<div1> June 22, Booth 23</div1> <br><br>
+</section>
+ </div>
+<div class='9u 12u(mobile)'>
+    <section>
+      <header>
+        <h1 class='top'>Learning Multi-agent Action Coordination via Electing First-move Agent</h1>
+        <h3>Jingqing Ruan, Linghui Meng, Xuantang Xiong, Dengpeng Xing and Bo Xu</h3>
+      </header>
+<b>Abstract:</b> Learning to coordinate actions among agents is essential in complicated multi-agent systems. Prior works are constrained mainly by the assumption that all agents act simultaneously, and asynchronous action coordination between agents is rarely considered. This paper introduces a bi-level multi-agent decision hierarchy for coordinated behavior planning. We propose a novel election mechanism in which we adopt a graph convolutional network to model the interaction among agents and elect a first-move agent for asynchronous guidance. We also propose a dynamically weighted mixing network to effectively reduce the misestimation of the value function during training. This work is the first to explicitly model the asynchronous multi-agent action coordination, and this explicitness enables to choose the optimal first-move agent. The results on Cooperative Navigation and Google Football demonstrate that the proposed algorithm can achieve superior performance in cooperative environments. Our code is available at https://github.com/Amanda-1997/EFA-DWM.<br><br>
+<div id='presentation-embed-38982828'></div>
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<script>
+embed = new SlidesLiveEmbed('presentation-embed-38982828', { 
+ presentationId: '38982828',
+ autoPlay: false,
+ verticalEnabled: true, 
+   });
+</script>
+<h4><p style='color:red'><sup>*</sup>This password protected talk video will only be available after it was presented at the conference.</p></h4></section>
+  </div>
+  </div>
+</div>

@@ -1,0 +1,75 @@
+Slot,Time,Day,Weekday,Type,Session1,Session2,Session1_title,Session2_title,Session1_papers,Session2_papers
+0,6,1,Tuesday 21,Joint,Opening (start: +30min),Opening (start: +30min),,,,
+1,7,1,Tuesday 21,Joint,Invited Talk: Malte Helmert,helmert,,,,
+2,8,1,Tuesday 21,Joint,Social: Get Together,Social: Get Together,,,,
+3,9,1,Tuesday 21,Single,1a,1b,Planning Representations and Scheduling,Verification,"2, 77, 257","44, 113, 368"
+4,10,1,Tuesday 21,Single,2a,2b,Reinforcement Learning,Heuristics in Classical Planning,"53, 151, 158","195, 208, 225"
+5,11,1,Tuesday 21,Joint,Poster and Demo Session,Poster and Demo Session,,,,
+6,12,1,Tuesday 21,Empty,None,None,,,,
+7,13,1,Tuesday 21,Single,3a,3b,Model-Based Reasoning in Classical Planning,Learning in Scheduling Applications,"33, 55, 64","170, 222, 232"
+8,14,1,Tuesday 21,Single,4a,4b,Search,Optimal Planning,"54, 128, 184","78, 96, 229"
+9,15,1,Tuesday 21,Joint,Career Development Panel,career,,,,
+10,16,1,Tuesday 21,Single,5a,5b,Problem Reformulation,Heuristics and Heuristic Search,"1, 65, 79","201, 240, 262"
+11,17,1,Tuesday 21,Single,6a,6b,Multi-Agent Path Finding,Deep Learning,"38, 153, 308","10, 66, 102"
+12,18,1,Tuesday 21,Joint,Poster and Demo Session,Poster and Demo Session,,,,
+13,19,1,Tuesday 21,Empty,None,None,,,,
+14,20,1,Tuesday 21,Single,7a,7b,Probabilistic Planning,Multi-Agent Planning and Scheduling,"7, 62, 154","35, 136, 209"
+15,21,1,Tuesday 21,Joint,Social: Speed Gathering,speed,,,,
+16,22,1,Tuesday 21,Single,8a,8b,Hierarchical Task Networks,Rewards in Reinforcement Learning,"49, 187, 323","212, 314, 373"
+17,23,1,Tuesday 21,Joint,Invited Talk: Sven Koenig,koenig,,,,
+18,24,1,Tuesday 21,Joint,Social: Games,games,,,,
+0,6,2,Wednesday 22,Empty,None,None,,,,
+1,7,2,Wednesday 22,Single,9a,9b,Search,Multi-Agent Planning,"125, 128, 262","78, 96, 209"
+2,8,2,Wednesday 22,Joint,Social: Get Together,Social: Get Together,,,,
+3,9,2,Wednesday 22,Single,10a,10b,Goal and Plan Recognition,Scheduling Applications,"1, 79, 369","202, 222, 233"
+4,10,2,Wednesday 22,Single,11a,11b,Heuristics in Classical and Multi-Objective Planning,Applications,"110, 131, 180","196, 200, 353"
+5,11,2,Wednesday 22,Joint,Competition Panel,competitions,,,,
+6,12,2,Wednesday 22,Empty,None,None,,,,
+7,13,2,Wednesday 22,Single,12a,12b,Numeric Planning,Deep Learning,"2, 221, 366","44, 113, 158"
+8,14,2,Wednesday 22,Single,13a,13b,Epistemic Planning,Heuristics in Classical Planning,"140, 351, 372","195, 208, 228"
+9,15,2,Wednesday 22,Joint,Social: Pseudonym Get Together,pseudo,,,,
+10,16,2,Wednesday 22,Joint,Invited Talk: Emma Brunskill,brunskill,,,,
+11,17,2,Wednesday 22,Single,14a,14b,Search,Verification,"148, 328, 371","15, 278, 365"
+12,18,2,Wednesday 22,Joint,Poster and Demo Session,Poster and Demo Session,,,,
+13,19,2,Wednesday 22,Empty,None,None,,,,
+14,20,2,Wednesday 22,Single,15a,15b,Planning Decompositions and Learning,Explainable Planning and Scheduling,"66, 119, 257","97, 192, 321"
+15,21,2,Wednesday 22,Joint,Social: Pseudonym Get Together,pseudo,,,,
+16,22,2,Wednesday 22,Single,16a,16b,Multi-Agent Planning,Reinforcement Learning,"153, 304, 308","36, 145, 282"
+17,23,2,Wednesday 22,Single,17a,17b,Applications,Path and Motion Planning,"130, 170, 347","106, 303, 324"
+18,24,2,Wednesday 22,Joint,Poster and Demo Session,Poster and Demo Session,,,,
+0,6,3,Thursday 23,Empty,None,None,,,,
+1,7,3,Thursday 23,Single,18a,18b,Classical Planning,Robotics,"148, 184, 371","17, 175, 365"
+2,8,3,Thursday 23,Joint,Social: Games,games,,,,
+3,9,3,Thursday 23,Single,19a,19b,Expressivity and Complexity,Path Finding,"49, 119, 187","38, 106, 162"
+4,10,3,Thursday 23,Single,20a,20b,Explainable Planning and Scheduling,Heuristics and Heuristic Search,"127, 192, 367","10, 201, 240"
+5,11,3,Thursday 23,Joint,Poster and Demo Session,Poster and Demo Session,,,,
+6,12,3,Thursday 23,Empty,None,None,,,,
+7,13,3,Thursday 23,Joint,Industry Panel,industry,,,,
+8,14,3,Thursday 23,Single,21a,21b,Applications,Temporal Planning and Reinforcement Learning,"130, 200, 233","93, 314, 368"
+9,15,3,Thursday 23,Joint,Social: Puzzle Game Team Challenge,puzzle,,,,
+10,16,3,Thursday 23,Single,22a,22b,Reinforcement Learning,Robotics,"154, 212, 373","303, 323, 324"
+11,17,3,Thursday 23,Single,23a,23b,Abstraction Heuristics,Reinforcement Learning,"116, 139, 225","36, 145, 282"
+12,18,3,Thursday 23,Joint,Invited Talk: Sidd Srinivasa,srinivasa,,,,
+13,19,3,Thursday 23,Empty,None,None,,,,
+14,20,3,Thursday 23,Single,24a,24b,Reinforcement Learning in Applications,User Interactions and Top-Quality Planning,"53, 102, 232","65, 255, 369"
+15,21,3,Thursday 23,Joint,Social: Get Together,Social: Get Together,,,,
+16,22,3,Thursday 23,Single,25a,25b,Heuristic Search,Epistemic Planning,"54, 228, 328","140, 351, 372"
+17,23,3,Thursday 23,Single,26a,26b,Heuristics,Scheduling,"56, 180, 221","77, 164, 264"
+18,24,3,Thursday 23,Joint,Poster and Demo Session,Poster and Demo Session,,,,
+0,6,4,Friday 24,Empty,None,None,,,,
+1,7,4,Friday 24,Joint,Invited Talk: Tim Miller,miller,,,,
+2,8,4,Friday 24,Joint,Social: Open Discussion,discussion,,,,
+3,9,4,Friday 24,Single,27a,27b,Reformulation,Probabilistic Planning,"15, 229, 278","7, 62, 139"
+4,10,4,Friday 24,Single,28a,28b,Model-Based Reasoning in Classical Planning,Temporal Planning,"33, 55, 64","93, 116, 366"
+5,11,4,Friday 24,Joint,Poster and Demo Session,Poster and Demo Session,,,,
+6,12,4,Friday 24,Empty,None,None,,,,
+7,13,4,Friday 24,Single,29a,29b,Multi-Agent and Tree Search,Motion Planning and Deep RL,"125, 162, 304","17, 151, 175"
+8,14,4,Friday 24,Joint,Community Meeting,Community Meeting,,,,
+10,16,4,Friday 24,Single,30a,30b,Scheduling,Heuristics in Classical Planning,"35, 136, 264","56, 110, 131"
+11,17,4,Friday 24,Single,31a,31b,User Interfaces for Explainable Planning,Scheduling,"97, 127, 255, 321, 367","164, 196, 202, 347, 353"
+13,19,4,Friday 24,Joint,Closing and Final Get Together,Closing and Final Get Together,,,,
+14,20,4,Friday 24,Empty,None,None,,,,
+15,21,4,Friday 24,Empty,None,None,,,,
+16,22,4,Friday 24,Empty,None,None,,,,
+17,23,4,Friday 24,Empty,None,None,,,,
+18,24,4,Friday 24,Empty,None,None,,,,

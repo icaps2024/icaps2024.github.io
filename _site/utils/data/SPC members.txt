@@ -1,0 +1,21 @@
+Roman, Barták, Charles University
+Pascal, Bercher, Australian National University
+Sara, Bernardini, Royal Holloway University of London
+Susanne, Biundo, University of Ulm
+Blai, Bonet, Universidad Simon Bolivar
+Ronen, Brafman, Ben-Gurion University
+Andrew, Coles, King's College London
+Malik, Ghallab, LAAS-CNRS
+Erez, Karpas, Technion
+Michael, Katz, IBM
+Sven, Koenig, University of Southern California
+Hoong Chuin, Lau, Singapore Management University
+Maxim, Likhachev, Carnegie Mellon University
+Sheila, McIlraith, University of Toronto
+Andrea, Orlandini, National Research Council of Italy (ISTC-CNR)
+Cédric, Pralet, ONERA Toulouse
+Gabriele, Röger, University of Basel
+Shirin, Sohrabi, IBM
+Siddharth, Srivastava, Arizona State University
+Neil, Yorke-Smith, Delft University of Technology
+Hankz Hankui, Zhuo, Department of Computer Science, Sun Yat-sen University

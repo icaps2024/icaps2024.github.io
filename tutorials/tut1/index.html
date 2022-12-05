@@ -1,0 +1,118 @@
+---
+title: "ICAPS Tutorial: Hands on Introduction to CALDERA, a Red-Blue Cyber Operations Automation Platform"
+layout: page
+---
+<div class="container">
+  <div class="row">
+    <div class="3u 12u(mobile) important(mobile)">
+      <section>
+        <header>
+          <h3 class="top">Date </h3>
+        </header>
+        <ul class="check-list">
+          <li><strong>June 15</strong></li>
+        </ul>
+      </section>
+      {% include tutorials.html %}
+    </div>
+    <div class="9u 12u(mobile)">
+      <section>
+        <header>
+          <h1 class="top">Hands on Introduction to CALDERA, a Red-Blue Cyber Operations Automation Platform</h1>
+          <h2>An ICAPS'22 Tutorial</h2>
+          <h2>(half day)</h2>
+          <p>June 15, 2022</p>
+        </header>
+      </section>
+
+      <section>
+        <header>
+          <h1>Description</h1>
+        </header>
+
+        <p>Live evaluation of cybersecurity defenses, or red team engagements, can be costly, difficult to commission,
+          and inconsistent in scope, detail, and results. This high overhead prevents many organizations from fully
+          using them despite their benefits. The objective of CALDERA is to enable automated assessment of a network’s
+          susceptibility to an adversary, essentially allowing an organization to see their network through the eyes of
+          attackers on demand. CALDERA features an adversary model that maps to the MITRE ATT&CK® framework and an
+          extensible planning system able to select and execute techniques. Inspired by automated planning
+          methodologies, CALDERA provides a flexible, mature platform for developing adaptive and intelligent cyber
+          agents.</p>
+
+        <p>Our tutorial will encourage automated planning researchers to apply their skills to pressing cybersecurity
+          issues. Towards this end, we will introduce attendees to CALDERA, and use CALDERA to automate attacks against
+          an enterprise network. Attendees will learn how CALDERA gathers information and makes decisions, as well as
+          how to modify those capabilities and run their own cybersecurity trials.</p>
+
+      </section>
+
+      <!-- <section>
+        <header><h1>Target audience</h1></header>
+      </section> -->
+
+      <section>
+        <header>
+          <h1>Outline</h1>
+        </header>
+        <ul>
+          <li>Opening<ul>
+              <li>Overview of the codebase</li>
+              <li>Install CALDERA into an AWS sandbox</li>
+              <li>Install extensions (defensive deception plugin)</li>
+            </ul>
+          </li>
+          <li>CALDERA Agents<ul>
+              <li>Deploy agents on AWS VMs, discuss features</li>
+              <li>Configuration options discussion</li>
+            </ul>
+          </li>
+          <li>Adversary profiles<ul>
+              <li>Adversaries are collection of abilities, often designed to mimic a particular group</li>
+              <li>Inspect an adversary to see how its component abilities can be sequenced to gain control of a
+                network.</li>
+              <li>Walk through an ability and explain how it uses learned facts to execute its function.</li>
+            </ul>
+          </li>
+          <li>Operations<ul>
+              <li>Operations are the application of an adversary to a group of agents</li>
+              <li>Show configuration options</li>
+              <li>Launch operation and show step output</li>
+              <li>Deploy defensive deceptions (honey credentials, fake machines), re-launch operation to show impact.
+              </li>
+            </ul>
+          </li>
+          <li>Planning<ul>
+              <li>Walk through CALDERA architecture</li>
+              <li>Map between CALDERA and planning terminologies</li>
+              <li>Work through CALDERA’s planning API with examples.</li>
+            </ul>
+          </li>
+          <li>Closing<ul>
+              <li>Run through relevant plugins</li>
+              <li>Show the field manual and how the same information on readthedocs is available offline</li>
+              <li>Open Q&A: Work with participants in setting up their own trials, create new planners, etc.</li>
+            </ul>
+          </li>
+          <li>Provide contact info / offer general support</li>
+        </ul>
+      </section>
+
+      <section>
+        <header>
+          <h1>Bios</h1>
+        </header>
+        <h2>Corinne Magone</h2>
+        <p>Corinne Magone is a Lead Cybersecurity Engineer at The MITRE Corporation. She is an architect of CALDERA’s
+          test range creation capability, and an experienced CALDERA instructor.</p>
+
+        <h2>Ron Alford</h2>
+        <p>Ron Alford is a Lead Autonomous Systems Engineer at the MITRE Corporation. He is the co-PI on a project
+          investigating the use of deception against autonomous systems, and has co-organized several workshops.</p>
+
+        <h2>Michael Kouremetis</h2>
+        <p>Michael Kouremetis is a Lead Cyber Operations Engineer and Group Lead at the MITRE Corporation who focuses on
+          applying artificial intelligence, data science and software engineering to the cyber domain.</p>
+      </section>
+    </div>
+  </div>
+</div>
