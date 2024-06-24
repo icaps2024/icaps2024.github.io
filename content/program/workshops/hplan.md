@@ -122,7 +122,7 @@ PANDA is a framework to solve different tasks around hierarchical planning. It c
 
  - Pascal Bercher, pascal.bercher at anu.edu.au, [webpage](https://comp.anu.edu.au/people/pascal-bercher/)
  - Dominik Schreiber, dominik.schreiber at kit.edu, [webpage](https://www.dominikschreiber.de/)  
- - Simona Ondrckova, ondrckova at ktiml.mff.cuni.cz
+ - Simona Ondrčková, ondrckova at ktiml.mff.cuni.cz
  - Ron Alford, ronwalf at volus.net, [webpage](https://www.volus.net/)
 
 
@@ -141,10 +141,10 @@ If you'd like to be part of our team this year or in any of the future years, pl
 - Jane Jean Kiam, Universität der Bundeswehr München
 - Pascal Lauer, Saarland University
 - Songtuan Lin, The Australian National University
-- Kristýna Pantucková, Charles University
 - Simona Ondrčková, Charles University
+- Kristýna Pantůčková, Charles University
 - Mark Roberts, The US Naval Research Laboratory
-- Enrico Scala, Universita' di Brescia
+- Enrico Scala, University of Brescia
 - Dominik Schreiber, Karlsruhe Institute of Technology
 - Mohammad Yousefi, The Australian National University
 
@@ -186,7 +186,7 @@ Our workshop is scheduled for Monday, June 3, 2024. It takes place in room KC 30
 - 10:50 -- 12:00 &nbsp; &nbsp; &nbsp;  poster session 2 (6 posters)
 - 12:00 -- 13:30 &nbsp; &nbsp; &nbsp;  *BREAK*
 - 13:30 -- 14:30 &nbsp; &nbsp; &nbsp;  Invited talk (including discussion)
-- 14:30 -- 15:00 &nbsp; &nbsp; &nbsp;  A discussion on an novel HTN formalism in the presence of empty decomposition methods, by Roman Bartak (~10 min talk + open discussion)
+- 14:30 -- 15:00 &nbsp; &nbsp; &nbsp;  A discussion on an novel HTN formalism in the presence of empty decomposition methods, by Roman Barták (~10 min talk + open discussion)
 
 #### Poster session 1:
 
