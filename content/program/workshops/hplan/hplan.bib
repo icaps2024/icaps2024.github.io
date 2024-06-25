@@ -6,8 +6,9 @@
   booktitle = {Proceedings of the 7th ICAPS Workshop on Hierarchical Planning (HPlan 2024)},
   title     = {Towards Search Node-Specific Special-Case Heuristics for HTN Planning -- An Empirical Analysis of Search Space Properties under Progression},
   year      = {2024},
-  abstract  = {In hierarchical task network (HTN) planning, heuristic search is highly effective, but currently, there are only a few avail- able heuristics and they are pre-selected for use. However, during progression-based search, many search nodes exhibit specific properties, e.g., they may become totally ordered or acyclic allowing for the application of specialized heuristics. For these search nodes, we conducted an experimental evalu- ation, employing reachability analysis, to examine the special cases encountered during search. Measuring how often vari- ous special cases (like acyclic problems) occur informs us of which heuristics developed for special cases – selected on a per-search node basis – are most promising.},
+  abstract  = {In hierarchical task network (HTN) planning, heuristic search is highly effective, but currently, there are only a few avail- able heuristics and they are pre-selected for use. However, during progression-based search, many search nodes exhibit specific properties, e.g., they may become totally ordered or acyclic allowing for the application of specialized heuristics. For these search nodes, we conducted an experimental evalu- ation, employing reachability analysis, to examine the special cases encountered during search. Measuring how often vari- ous special cases (like acyclic problems) occur informs us of which heuristics developed for special cases - selected on a per-search node basis - are most promising.},
   url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_2.pdf}
+  pages     = {45--53}
 }
 
 % submission 3
@@ -17,7 +18,8 @@
   title     = {A Comparative Analysis of Plan Repair in HTN Planning},
   year      = {2024},
   abstract  = {This paper reports an analysis of three recent hierarchical plan repair algorithms: SHOPFIXER, IPYHOPPER, and REWRITE. We compare these algorithms qualitatively, and evaluate their performance, quantitatively, in a series of benchmark planning problems, informed by our qualitative analysis. A critical part of the qualitative comparison is that REWRITE, a problem-rewriting technique, has a substantially different and more restrictive definition of plan repair than the other two systems. Understanding this distinction will be important when choosing a repair method for any given appli- cation. Our results explain the runtime repair performance of these systems as well as the coverage of the repair problems solved, based on algorithmic properties such as chronological backtracking vs. backjumping over plan trees.},
-  url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_3.pdf}
+  url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_3.pdf},
+  pages     = {1--9}
 }
 
 % submission 4
@@ -28,6 +30,7 @@
   year      = {2024},
   abstract  = {Hierarchical planning extends classical planning by capturing the hierarchical structure of tasks. Plan correction, an exten- sion of plan verification, involves assessing the validity of a given plan. When an input plan is invalid, the solver searches for a valid alternative plan closest to the original plan. Cur- rently, the only approach for plan correction solely supports action deletion from the original plan. This paper presents the first approach supporting action insertion and deletion within totally ordered hierarchical domain models. Moreover, this new approach is more efficient than the existing technique when only action deletion is allowed.},
   url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_4.pdf}
+  pages     = {27--35}
 }
 
 % submission 5
@@ -37,7 +40,8 @@
   title     = {Weighted Randomized Anytime Planning in Pyhop},
   year      = {2024},
   abstract  = {Since they produce plans whose quality increases with time, anytime planners are very useful for domains such as robotics and video games. Planners using the SHOP algorithm can op- erate as anytime planners by retaining the result of the first depth-first search path that reaches the goal, then returning the results of subsequent searches if they improve upon it. However, backtracking to the most recent alternative may not be the best approach for quickly finding a low-cost plan. In this paper, we replace backtracking depth-first search with a randomized algorithm in the Pyhop implementation of SHOP. Whenever there are multiple options, the planner se- lects a random operator or method. For every selected option, it records the cost of every plan that includes that option. It uses these cost statistics to make the selection of options that lead to lower-cost plans more probable. We evaluated the resulting HTN planner on three domains - the Traveling Salesperson Problem, the Pickup and Delivery Problem, and the Satellite Problem. Our experiments show that the weighted-selection approach outperforms both depth-first search and unweighted randomized selection.},
-  url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_5.pdf}
+  url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_5.pdf},
+  pages     = {54--58}
 }
 
 % submission 6
@@ -46,8 +50,9 @@
   booktitle = {Proceedings of the 7th ICAPS Workshop on Hierarchical Planning (HPlan 2024)},
   title     = {Toward Planning with Hierarchical Decompositions and Time-frames},
   year      = {2024},
-  abstract  = {The semantics of temporal hierarchical planners are limited. In hierarchical paradigms, temporal reasoning has largely fo- cused on durative constraints of primitive actions, which may be added directly or appear post-expansion. We propose ex- tending temporal reasoning to composite actions, specifically within decompositional partial order causal linked planning. We outline how a general-purpose hierarchical planner can approach temporal reasoning outlined in a STRIPS-like for- malism. We build upon existing temporal and hierarchical se- mantics, and sketch two novel approaches: time-frame plan- ning and decompositional time-frame planning.},
-  url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_6.pdf}
+  abstract  = {The semantics of temporal hierarchical planners are limited. In hierarchical paradigms, temporal reasoning has largely fo- cused on durative constraints of primitive actions, which may be added directly or appear post-expansion. We propose ex- tending temporal reasoning to composite actions, specifically within decompositional partial order causal linked planning. We outline how a general-purpose hierarchical planner can approach temporal reasoning outlined in a STRIPS-like formalism. We build upon existing temporal and hierarchical se- mantics, and sketch two novel approaches: time-frame plan- ning and decompositional time-frame planning.},
+  url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_6.pdf},
+  pages     = {59--63}
 }
 
 % submission 7 // was also accepted at IJCAI
@@ -57,7 +62,8 @@
   title     = {Laying the Foundations for Solving FOND HTN problems: Grounding, Search, Heuristics (and Benchmark Problems)},
   year      = {2024},
   abstract  = {Building upon recent advancements in formalising Fully Observable Non-Deterministic (FOND) Hierarchical Task Network (HTN) planning, we present the first approach to find strong solutions for HTN problems with uncertainty in action outcomes. We present a search algorithm, along with a compilation that relaxes a FOND HTN problem to a deterministic one. This allows the utilisation of existing grounders and heuristics from the deterministic HTN planning literature.},
-  url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_7.pdf}
+ Xurl_paper = {},
+  pages     = {}
 }
 
 % submission 8
@@ -67,7 +73,8 @@
   title     = {An ILP Heuristic for Total-Order HTN Planning},
   year      = {2024},
   abstract  = {Heuristic Search is still the most successful approach to hi- erarchical planning, both for finding any and for finding an optimal solution. Yet, there exist only a very small handful heuristics for HTN planning – so there is still huge poten- tial for improvements. It is especially noteworthy that there does not exist a single heuristic that’s tailored towards spe- cial cases. In this work we propose the very first specialized HTN heuristic, tailored towards totally ordered HTN prob- lems. Our heuristic builds on an existing NP-complete and admissible delete-and-ordering relaxation ILP heuristic but partially incorporates ordering constraints while reducing the number of ILP constraints. It exploits inferred preconditions and effects of compound tasks and is also admissible. Our current heuristic proves to be more efficient than the one we build on, though it still performs worse than other existing (admissible) heuristics.},
-  url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_8.pdf}
+  url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_8.pdf},
+  pages     = {10--18}
 }
 
 % submission 9
@@ -77,7 +84,8 @@
   title     = {Redundant Decompositions in PO HTN Domains: Goto Considered Harmful},
   year      = {2024},
   abstract  = {HTN planning is a widely used approach for solving planning problems by breaking them down into smaller sub-problems. This approach is often motivated by the ability to add constraints between tasks, which can guide the search towards a solution and improve per- formance by reducing the search space. In this paper, we identify a common pattern in PO HTN planning that can lead to a pathological explosion of the search space, resulting in a significant decrease in computa- tional performance. However, this is not a fatal issue. Alternative HTN models can be used to reduce the search space. We propose two models that maintain the expressiveness of the original problem while reduc- ing the number of possible decompositions. Our results demonstrate improved computational performance on IPC benchmarks.},
-  url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_9.pdf}
+  url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_9.pdf},
+  pages     = {36--44}
 }
 
 % submission 10
@@ -87,5 +95,6 @@
   title     = {Barely Decidable Fragments of HTN Planning},
   year      = {2024},
   abstract  = {Unrestricted HTN planning is undecidable. However some fragments of HTN planning – such as totally-ordered or tail- recursive HTNs – are decidable. Studying these restricted fragments has lead to valuable insights, which ultimately gave rise to the development of new efficient HTN planning algorithms. We identify new decidable fragments of HTN planning. In a one-hole-digging problem, every task network contains at most a single compound task. In an initial problem, com- pound tasks are order-minimal in all task networks, while in a final problem, they are order-maximal. We precisely determine the complexity of these fragments – they are Ackermann-complete. This remains true even under the re- striction that there is only one compound task and only two methods for it.},
-  url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_10.pdf}
+  url_paper = {https://icaps24.icaps-conference.org/program/workshops/hplan/HPlan2024_paper_10.pdf},
+  pages     = {19--26}
 }
