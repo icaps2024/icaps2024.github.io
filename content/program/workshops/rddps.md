@@ -76,13 +76,13 @@ Please do not submit papers that are already accepted for the ICAPS main confere
 
 ## List of Accepted Papers
 
- - Bruce Chidley and Christian Muise: **Using Probabilistic Planning to Model the Spread of COVID-19 in Kingston, Ontario** ([PDF](../rddps-papers/Chidley-RDDPS24.pdf)
- - Alba Gragera and Christian Muise: **One Repair to Rule Them All: Repairing a Broken Planning Domain Using Multiple Instances** ([PDF](../rddps-papers/Gragera-RDDPS24.pdf)
- - Timo P. Gros, Nicola Müller, Daniel Höller and Verena Wolf: **Safe Reinforcement Learning Through Regret and State Restorations in Evaluation Stages** ([PDF](../rddps-papers/Gros-RDDPS24.pdf)
- - Mingyu Hao, Felipe Trevizan, Sylvie Thiebaux, Patrick Ferber and Jörg Hoffmann: **Learned Pairwise Rankings for Greedy Best-First Search** ([PDF](../rddps-papers/Hao-RDDPS24.pdf)
- - Chaahat Jain, Lorenzo Cascioli, Laurens Devos, Marcel Vinzent, Marcel Steinmetz, Jesse Davis and Jörg Hoffmann: **Safety Verification of Tree-Ensemble Policies via Predicate Abstraction** ([PDF](../rddps-papers/Jain-RDDPS24.pdf)
- - Jeremy Frank, Alison Paredes, J. Benton and Christian Muise: **Bias in Planning Algorithms** ([PDF](../rddps-papers/Frank-RDDPS24.pdf)
- - Alison Paredes, Jeremy Frank, J. Benton and Christian Muise: **Planning Bias: Planning as a Source of Sampling Bias** ([PDF](../rddps-papers/Paredes-RDDPS24.pdf)
+ - Bruce Chidley and Christian Muise: **Using Probabilistic Planning to Model the Spread of COVID-19 in Kingston, Ontario** ([PDF](../rddps-papers/Chidley-RDDPS24.pdf))
+ - Alba Gragera and Christian Muise: **One Repair to Rule Them All: Repairing a Broken Planning Domain Using Multiple Instances** ([PDF](../rddps-papers/Gragera-RDDPS24.pdf))
+ - Timo P. Gros, Nicola Müller, Daniel Höller and Verena Wolf: **Safe Reinforcement Learning Through Regret and State Restorations in Evaluation Stages** ([PDF](../rddps-papers/Gros-RDDPS24.pdf))
+ - Mingyu Hao, Felipe Trevizan, Sylvie Thiebaux, Patrick Ferber and Jörg Hoffmann: **Learned Pairwise Rankings for Greedy Best-First Search** ([PDF](../rddps-papers/Hao-RDDPS24.pdf))
+ - Chaahat Jain, Lorenzo Cascioli, Laurens Devos, Marcel Vinzent, Marcel Steinmetz, Jesse Davis and Jörg Hoffmann: **Safety Verification of Tree-Ensemble Policies via Predicate Abstraction** ([PDF](../rddps-papers/Jain-RDDPS24.pdf))
+ - Jeremy Frank, Alison Paredes, J. Benton and Christian Muise: **Bias in Planning Algorithms** ([PDF](../rddps-papers/Frank-RDDPS24.pdf))
+ - Alison Paredes, Jeremy Frank, J. Benton and Christian Muise: **Planning Bias: Planning as a Source of Sampling Bias** ([PDF](../rddps-papers/Paredes-RDDPS24.pdf))
 
 ## Workshop Schedule (June 3)
 
@@ -188,12 +188,12 @@ Please do not submit papers that are already accepted for the ICAPS main confere
             <tr>
                 <td style="height:20px;">10:50</td>
                 <td style="height:20px;">11:10</td>
-                <td style="height:20px;" colspan="6"><i>Planning Bias: Planning as a Source of Sampling Bias</i><br>Alison Paredes, J. Benton, Jeremy Frank and Christian Muise</td>
+                <td style="height:20px;" colspan="6"><i>Planning Bias: Planning as a Source of Sampling Bias</i><br>Alison Paredes, Jeremy Frank, J. Benton and Christian Muise</td>
             </tr>
             <tr>
                 <td style="height:20px;">11:10</td>
                 <td style="height:20px;">11:30</td>
-                <td style="height:20px;" colspan="6"><i>Bias in Planning Algorithms</i><br>Alison Paredes, J. Benton, Jeremy Frank and Christian Muise</td>
+                <td style="height:20px;" colspan="6"><i>Bias in Planning Algorithms</i><br>Jeremy Frank, Alison Paredes, J. Benton and Christian Muise</td>
             </tr>
             <tr>
                 <td style="height:20px;">&nbsp;</td>

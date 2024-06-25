@@ -5,7 +5,7 @@ draft: false
 <!--  How to test webpage locally? Execute "hugo server" in the root folder -->
 
 # ICAPS-24 System Demonstrations
-
+All demo extended abstracts can be found [here](https://openreview.net/group?id=icaps-conference.org/ICAPS/2024/Demo_Track#tab-accept)
 
 <div style="width: 100%; margin: 0; padding: 1%;">
 <h4 style="color:black;"><strong>The League of Robot Runners Competition: Goals, Designs, and Implementation</strong></h4>
@@ -110,7 +110,7 @@ Autonomous agents operating in human worlds must understand and respond to natur
 <div style="display: inline-block; width: 68%; padding: 1%; vertical-align: middle;">
 <div style="margin:0; padding: 0; padding-left: 2%">
 <p>
-Autonomous agents operating in human worlds must understand and respond to natural language used by humans to communicate their tasks needs. In this paper, we present an approach for language understanding in embodied planning agents. Our approach uses recent advances in large language models to translate human language into a meaningful representation. The representation is further analyzed through grounded reasoning to connect information contained in it with the agent's current beliefs about the state of the world. Grounded reasoning results in a goal description in PDDL which is given to a planner to generate a plan and is executed. We demonstrate our approach on AI2Thor - an interactive, simulated home domain that is becoming a standard benchmark for conversational embodied agents.
+AI and ML agents are developed with closed world assumptions, that can change during execution. This demo paper presents HYDRA, a framework for developing self-adaptive autonomous agents capable of handling unexpected domain shifts (also called \textit{novelty}) during execution, applied to a high fidelity simulator for military mission planning. The framework is divided into a base agent, responsible for basic predict-decide-act cycle, and novelty monitoring to detect, characterize and adapt to the novelty. AFSIM is a high-fidelity mission simulator that incorporates many real-world military models; and has been used for mission planning in several scenarios. This paper shows successful integration of HYDRA with AFSIM, and demonstrates HYDRA agents efficiently adapting to novelty in realistic simulated military scenarios. Demonstration of our system is available at https://tinyurl.com/wb3z2edv.
 </p>
 <b>Authors:</b> Wiktor Mateusz Piotrowski, James Chao, Sachin Grover, Roni Stern, Shiwali Mohan, Douglas S. Lange
 <br><br>
