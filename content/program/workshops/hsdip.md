@@ -25,7 +25,7 @@ HSDIP is scheduled on the June 2.
 ---
 [08:50 - 10:00] - **Opening & Invited Talk**
 * **Opening Remarks**
-* **Opportunities and Challenges for Domain-Independent Planning with Deep Reinforcement Learning**  
+* **Opportunities and Challenges for Domain-Independent Planning with Deep Reinforcement Learning** ([PDF slides](../hsdip-papers/slides-invited-talk.pdf))  
   Forest Agostinelli
 
 ---
@@ -57,7 +57,7 @@ HSDIP is scheduled on the June 2.
   Yarin Benyamin, Argaman Mordoch, Shahaf S. Shperberg, Roni Stern
 * **Cost Partitioning For Multiple Sequence Alignment** ([PDF](../hsdip-papers/paper_2.pdf))  
   Mika Skjelnes, Daniel Gnad, Jendrik Seipp
-* **Improving the Solvability of the Rubik’s Cube with Domain-Independent Planners Using Standard Planning Representations** ([PDF](../hsdip-papers/paper_10.pdf))  
+* **Comparing Rubik's Cube Solvability in Domain-Independent Planners Using Standard Planning Representations for Insights and Synergy with Upcoming Learning Methods** ([PDF](../hsdip-papers/paper_10.pdf))  
   Bharath C. Muppasani, Vishal Pallagani, Biplav Srivastava, Forest Agostinelli
 * **Some Orders Are Important: Partially Preserving Orders in Top-Quality Planning** ([PDF](../hsdip-papers/paper_4.pdf), also presented at [SoCS 2024](https://socs24.search-conference.org/))  
   Michael Katz, Junkyu Lee, Jungkoo Kang, Shirin Sohrabi
@@ -85,7 +85,7 @@ HSDIP is scheduled on the June 2.
 
 **Forest Agostinelli**  
 
-**Title:** Opportunities and Challenges for Domain-Independent Planning with Deep Reinforcement Learning  
+**Title:** Opportunities and Challenges for Domain-Independent Planning with Deep Reinforcement Learning ([PDF slides](../hsdip-papers/slides-invited-talk.pdf))  
 
 **Abstract:** Deep reinforcement learning has been shown to be able to learn domain-specific heuristic functions
 in a largely domain-independent fashion. This has allowed practitioners to apply heuristic search to fields such 
