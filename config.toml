@@ -41,6 +41,12 @@ theme = 'mainroad'
     url="/competitions/airlift"
     parent = "competitions"
     weight = 10
+  [[menu.main]]
+    identifier = "blocks"
+    name = "Blocksworld Challenge"
+    url="/competitions/blocksworld"
+    parent = "competitions"
+    weight = 20
 # STUDENTS
   [[menu.main]]
     identifier = "students"
