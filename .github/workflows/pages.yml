@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Preload upload-artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
 
   build:
     runs-on: ubuntu-22.04
