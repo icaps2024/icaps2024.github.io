@@ -25,6 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: preload
 
+    steps:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
