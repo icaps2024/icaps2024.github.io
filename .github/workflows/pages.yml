@@ -16,13 +16,13 @@ concurrency:
 
 jobs:
   preload:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Preload upload-artifact
         uses: actions/upload-artifact@v3
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: preload
 
     steps:
@@ -46,7 +46,7 @@ jobs:
           path: ./public
 
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: build
     environment:
       name: github-pages
