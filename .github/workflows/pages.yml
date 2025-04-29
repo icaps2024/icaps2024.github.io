@@ -23,6 +23,9 @@ jobs:
         with:
           submodules: true
 
+      - name: Preload upload-artifact
+        uses: actions/upload-artifact@v3
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
