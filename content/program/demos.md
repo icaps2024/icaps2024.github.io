@@ -152,7 +152,6 @@ We demonstrate a Visual Studio Code extension which aims at providing modeling a
 </p>
 <b>Authors:</b> S.T. Lin, Mohammad Yousefi, Pascal Tobias Bercher
 <br><br>
-<a href="https://youtu.be/1nOUfo2ENQk">Video</a>
 </div>
 </div>
 </div>
